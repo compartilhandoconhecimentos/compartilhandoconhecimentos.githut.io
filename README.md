@@ -1,40 +1,36 @@
-#📖 Mensagens Bíblia e Orações
+# 📚 Cursos Gerais
 
-Bem-vindo ao repositório Mensagens Bíblia e Orações.
+Bem-vindo ao meu site de cursos.
 
-Aqui você encontrará orações para cada dia da semana e mensagens de fé para fortalecer sua caminhada com Deus.
+## 📂 Categorias
 
----
+### 💻 Informática
+- [Curso de HTML](https://exemplo.com/html)
+- [Curso de CSS](https://exemplo.com/css)
+- [Curso de JavaScript](https://exemplo.com/javascript)
 
-🙏 SEGUNDA-FEIRA
+### 📖 Idiomas
+- [Curso de Inglês](https://exemplo.com/ingles)
+- [Curso de Espanhol](https://exemplo.com/espanhol)
 
-Deus, dê-me toda a força e poder, dá-me nesta segunda-feira segurança do teu amor e a certeza de que estás comigo.
-
-Peço-te ajuda e proteção nesta segunda, porque preciso de tua assistência e de tua misericórdia.
-
-Que eu possa, Senhor, perceber toda a tua grandeza e a tua presença em mim.
-
-Não me abandones. Senhor Jesus fica comigo para que eu não me desespere, nem Te esqueça durante esta semana.
-
-Ajuda-me a seguir-te sem vacilar e sem olhar para trás.
-
-Entrego-te nesta segunda toda a minha vida e a vida de toda a minha família.
-
-Te agradeço, meu Deus e meu Pai.
+### 📱 Tecnologia
+- [Curso de Android](https://exemplo.com/android)
+- [Curso de GitHub](https://exemplo.com/github)
 
 ---
 
-🙏 TERÇA-FEIRA
+## ⭐ Favoritos
 
-Senhor, meu primeiro pensamento nesta terça leva-me diretamente para Ti, que velaste meu sono e meu despertar.
+- HTML
+- CSS
+- GitHub
+- Android
 
-Tu moras nas alturas e habitas bem no íntimo de minha vida.
+---
 
-E toda essa terça-feira é Tua.
+## 📞 Contato
 
-Consagro-Te agora a jornada que começa.
-
-Que meu trabalho seja fecundo, com o orvalho do teu amor e a força da tua bênção.
+Obrigado pela visita!Que meu trabalho seja fecundo, com o orvalho do teu amor e a força da tua bênção.
 
 Que hoje à noite possa estar Contigo, como alguém que reencontra um amigo, para poder dar graças pelo meu dia.
 
