@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORAÇÕES TODOS MOMENTOS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #fefcf3;
+            color: #2c3e4e;
+            padding: 20px;
+            line-height: 1.7;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 32px;
+            padding: 30px 25px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+        }
+
+        h1, h2, h3 {
+            font-weight: 600;
+            letter-spacing: -0.3px;
+            color: #1e2b37;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            text-align: center;
+            margin-bottom: 12px;
+            border-bottom: 3px solid #d4b48c;
+            padding-bottom: 18px;
+            color: #4f3b28;
+            word-break: break-word;
+        }
+
+        .logo-img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 18px auto;
+            border-radius: 18px;
+            box-shadow: 0 8px 18px rgba(0,0,0,0.06);
+        }
+
+        .biblia-link {
+            text-align: center;
+            margin: 16px 0 28px;
+            font-size: 1.1rem;
+        }
+
+        .biblia-link a {
+            background: #e8e0d3;
+            padding: 8px 22px;
+            border-radius: 40px;
+            text-decoration: none;
+            color: #2c3e4e;
+            font-weight: 500;
+            transition: 0.2s;
+            display: inline-block;
+        }
+
+        .biblia-link a:hover {
+            background: #d4b48c;
+            color: #fff;
+        }
+
+        .topo-link {
+            display: block;
+            text-align: right;
+            font-size: 0.9rem;
+            margin: 8px 0 6px;
+        }
+
+        .topo-link a {
+            color: #8a7a66;
+            text-decoration: none;
+            border-bottom: 1px dashed #c9b8a5;
+        }
+
+        .topo-link a:hover {
+            color: #4f3b28;
+            border-bottom: 1px solid #4f3b28;
+        }
+
+        .section-title {
+            font-size: 1.9rem;
+            margin: 40px 0 16px;
+            padding-left: 6px;
+            border-left: 7px solid #b7a084;
+            padding-left: 18px;
+            color: #3c2f23;
+        }
+
+        .subsection-title {
+            font-size: 1.6rem;
+            margin: 32px 0 8px;
+            color: #4d3c2c;
+            font-weight: 500;
+        }
+
+        .prayer-block {
+            background: #f8f5ef;
+            padding: 18px 20px;
+            margin: 24px 0;
+            border-radius: 24px;
+            border-left: 6px solid #c6b09b;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.02);
+        }
+
+        .prayer-title {
+            font-size: 1.35rem;
+            font-weight: 600;
+            margin-bottom: 6px;
+            color: #3a2e22;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .prayer-title .emoji-badge {
+            font-size: 1.6rem;
+        }
+
+        .prayer-text {
+            white-space: pre-wrap;
+            word-break: break-word;
+            font-size: 1.02rem;
+            color: #1f2a33;
+            margin-top: 6px;
+        }
+
+        .prayer-text p {
+            margin-bottom: 0.8rem;
+        }
+
+        .divider {
+            margin: 40px 0 10px;
+            border: 0;
+            height: 2px;
+            background: linear-gradient(to right, #dccfc0, transparent);
+        }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 10px 16px;
+            background: #f5efe8;
+            padding: 20px 20px;
+            border-radius: 40px;
+            margin: 20px 0 30px;
+        }
+
+        .menu-grid a {
+            color: #2e3b47;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 4px 0;
+            border-bottom: 2px solid transparent;
+            transition: 0.2s;
+        }
+
+        .menu-grid a:hover {
+            border-bottom-color: #b89f86;
+            color: #1d2a33;
+        }
+
+        .footer-note {
+            text-align: center;
+            font-size: 0.9rem;
+            color: #6d5f50;
+            margin-top: 40px;
+            padding-top: 16px;
+            border-top: 1px solid #e0d5c8;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 1.8rem; }
+            .section-title { font-size: 1.6rem; }
+            .prayer-title { font-size: 1.2rem; }
+            .container { padding: 16px; }
+            .menu-grid { grid-template-columns: 1fr 1fr; }
+        }
+    </style>
+</head>
+<body>
+<div class="container" id="topo">
+
+    <h1>✝️ ORAÇÕES TODOS MOMENTOS</h1>
+
+    <!-- Imagem Bíblia -->
+    <img class="logo-img" src="https://static.klipy.com/i/d7aec6f6f171607374b2065c836f92f4/6d/9b/7ymNAYZy.gif/i/d7aec6f6f171607374b2065c836f92f4/6d/9b/7ymNAYZy.gif" alt="Bíblia Sagrada">
+
+    <div class="biblia-link">
+        <a href="https://www.bibliaonline.com.br/" target="_blank">📖 BÍBLIA SAGRADA — Leia mais</a>
+    </div>
+
+    <div class="topo-link"><a href="#topo">⬆️ Voltar ao topo</a></div>
+
+    <!-- MENU PRINCIPAL -->
+    <div class="menu-grid">
+        <a href="#momentos-dia">Momentos do dia</a>
+        <a href="#horas-dificeis">Horas difíceis</a>
+        <a href="#variadas">Variadas</a>
+        <a href="#familia">Para família</a>
+        <a href="#cura">Orações de cura</a>
+        <a href="#diarias">Orações diárias</a>
+        <a href="#sentimentos">Orações de sentimentos</a>
+        <a href="#bencaos">Orações de bençãos</a>
+        <a href="#ocasioes">Ocasiões</a>
+    </div>
+
+    <div class="topo-link"><a href="#topo">⬆️ Voltar ao topo</a></div>
+    <hr class="divider">
+
+    <!-- ============================================ -->
+    <!-- MOMENTOS DO DIA -->
+    <!-- ============================================ -->
+    <h2 class="section-title" id="momentos-dia">🌅 MOMENTOS DO DIA</h2>
+
+    <h3 class="subsection-title">🌄 ORAÇÕES DO AMANHECER</h3>
+
+    <!-- ORAÇÃO DA MANHÃ -->
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> ORAÇÕES DA MANHÃ</div>
+        <div class="prayer-text">
+Senhor, ao despertar, agradeço por mais um dia.  
+Que a Tua luz guie meus passos, que a Tua paz esteja em meu coração.  
+Dá-me sabedoria para agir, paciência para esperar e amor para servir.  
+Que eu viva cada momento na Tua presença. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> ANTES DAS REFEIÇÃO</div>
+        <div class="prayer-text">
+Obrigado Senhor… Nós Vos agradecemos, Senhor, pelo alimento que tiveste a bondade de nos dar. Vós que pela fartura e riqueza dos Vossos dons, alimentais todos os seres vivos. Abençoai este alimento que vamos comer, para não somente conservar a saúde, mas também a vida do nosso corpo. Louvado seja Nosso Senhor Jesus Cristo. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> REFEIÇÃO</div>
+        <div class="prayer-text">
+Agradeço Senhor, por estes alimentos que vamos tomar agora. Eles nos sustentarão dando ao nosso corpo a saúde e a resistência para o trabalho diário. Que eles sirvam também para nos dar disposição em servir aos mais fracos, que não têm saúde, os que precisam de ajuda. Alimentai, Senhor, o nosso espírito para que saibamos usar bem o nosso corpo e, vivendo em comunhão com irmãos e convosco, por Cristo, nosso Senhor! Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> BONDOSO DEUS</div>
+        <div class="prayer-text">
+Meu Senhor Deus bondoso que nos dissestes através de Jesus Cristo: ❝ Não vos preocupeis com o dia de amanhã, com o que comer e vestir.❞ Muito obrigado por esta refeição. Confiamos em vossa bondade infinita, que nunca vai nos faltar o alimento. Porque eu prometo matar a fome daqueles que me pedirem um bocado de comida. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> ALIMENTOS NA MESA</div>
+        <div class="prayer-text">
+Senhor nosso Deus, damo-vos graças por este alimento na mesa, louvamo-Vos pela Vossa Providência, pedimos que venha nos fortalecer nossa missão, para que sejamos instrumentos em Suas mãos, trabalhando com a fé a esperança e o amor, para que todos tenham o alimento necessário para alma e para o corpo. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> OBRIGADO SENHOR</div>
+        <div class="prayer-text">
+Obrigado Senhor Deus, por ter esse abençoado alimento que vou saborear agora. Sei que as vezes não mereço tudo que tenho, mesmo assim tu me destes em abundância. Senhor, abençoa e ampara as pessoas que neste momento estão em dificuldade, sei que o Senhor é pai e um pai não desampara um filho necessitado; Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> BANQUETE</div>
+        <div class="prayer-text">
+Senhor, que nos dás a alegria de estar á volta desta mesa; Abençoa, Senhor, esta mesa e todos aqueles que a prepararam; Ajuda-nos também a repartir o nosso pão com aqueles que não o têm. Em nome de Jesus, Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> NÃO FALTE ALIMENTOS</div>
+        <div class="prayer-text">
+Pai, abençoai-nos e a nossa refeição, para que fortificados no corpo e na alma, realizemos sempre o que vos agrada. E jamais falte alimento em nenhuma mesa, é o que vos pedimos, por Jesus Cristo, nosso Senhor. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> AQUI REUNIDOS</div>
+        <div class="prayer-text">
+Senhor, velai por nós aqui reunidos, abençoai a refeição que vamos tomar, abençoai e ajudai quem a fez. Amparai e acolhei também os necessitados. Em seu nome Amém.
+        </div>
+    </div>
+
+    <div class="topo-link"><a href="#topo">⬆️ Voltar ao topo</a></div>
+
+    <h3 class="subsection-title">🌤️ ORAÇÕES DA TARDE</h3>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Bom Pastor</div>
+        <div class="prayer-text">
+Boa tarde, Senhor, Tu és o Bom Pastor. Eu sou a Tua ovelha. Em alguns dias, estou sujo; Em outros estou doente. Em alguns dias, me escondo; Em outros, me revelo. Sou uma ovelha, ora mansa, ora agitada. Sou uma ovelha, ora perdida, nora reconhecida. Eu sou Tua ovelha, Senhor. Eu conheço a Tua voz. É que às vezes a surdez toma conta de mim. Eu sou Tua ovelha, Senhor. Não permita que eu me perca, que eu me desvie do Teu rebanho. Mas se eu me perder, eu Te peço, Senhor, venha a minha procura, e me encontre, porque eu sei que Tu me ama. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Agradecemos</div>
+        <div class="prayer-text">
+Senhor, venho te agradecer nesta tarde, a manhã maravilhosa que me deste e a noite que ainda esta por vir. Que eu continue Senhor, sendo paciente, compreensivo, justo e equilibrado em minhas ações. Que meus olhos não vejam maldades, que meus ouvidos não ouçam calúnias e que de minha boca só saiam palavras de agrado. Conserve Senhor o meu Espírito, para que eu viva em paz e harmonia, com todos meus irmãos e eu te peço nesta tarde Senhor, que eu seja tão bom e alegre, para que por onde eu passar, eu possa estar espalhando essa luz radiante de seu amor. Amém!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Serenidade</div>
+        <div class="prayer-text">
+Senhor No silêncio desta tarde que se inicia venho solicitar serenidade, compreensão, paz, sabedoria e força. Quero poder sentir que ajudo na construção de um mundo muito melhor. Dai-me paciência, compreensão e prudência. Que eu veja além das aparências, que eu veja seus filhos como você nos vê e assim, não ver senão o bem em cada um. Ajude com que calúnias não me distraiam ainda que meus ouvidos as escutem. Guarda minha língua de maldades. Que só de benção se encha meu espírito. Que em mim sintam a sua presença, que eu sinta a sua presença. Te rogo por claridade de mente e alma para com elas ter a possibilidade de fazer a diferença na vida, e ser parte de algo maior e melhor. Em nome de Jesus, Amém!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Tudo Certo</div>
+        <div class="prayer-text">
+Venho aqui clamar a Ti, pela minha tarde! Estou começando essa tarde e quero que ela esteja debaixo da tua benção! Dai-me sabedoria, Deus, faça com que tenha uma ótima tarde, que dê tudo certo, que eu consiga terminar todos os meus afazeres corretamente e com tranquilidade! Quando eu entrar na noite, quero tua benção quando sair também! Me proteja Senhor, de toda a inveja, mau olhado,e toda maldade das pessoas! Em nome de Jesus nosso Senhor! Amém e Graças a Deus!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Tarde Abençoada</div>
+        <div class="prayer-text">
+Nesta abençoada tarde, ouvirás a minha voz ó Senhor Pai Celestial venho a Ti agradecer por esta tarde. Obrigado pela manhã que passou, nesta tarde quero louvar Teu nome e pedir que a cada minuto, lembre-me que minha vida é muito preciosa e que a tarde de hoje Tu me deste para que eu me realize, seja feliz. Entrego esta tarde em tuas mãos. E sei que estarei bem. Obrigado, Senhor. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Orações para tarde</div>
+        <div class="prayer-text">
+Senhor Deus, nosso Pai, nós cremos em vós. Nós esperamos em vós. Nós vos amamos. Nós vos agradecemos a tarde deste dia. Nós vos damos graças, por que estamos com vida e nós vos oferecemos este dia com todas alegrias e sofrimentos. Guardai-nos do pecado e fazei de nós um instrumento de vossa paz e de vosso amor. Ajudai-nos observar Vossos mandamentos. Amém.
+        </div>
+    </div>
+
+    <div class="topo-link"><a href="#topo">⬆️ Voltar ao topo</a></div>
+
+    <h3 class="subsection-title">🌙 ORAÇÕES DA NOITE</h3>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> PROTEJA-ME SENHOR</div>
+        <div class="prayer-text">
+Pai, em nome do Senhor Jesus Cristo, me coloco na sua abençoada presença para pedir que por favor, venha tomar conta do meu sono, do meu descanso. Proteja-me e liberte-me de todos os tipos de males que estão atacando minha vida e o meu descanso noturno. Pai amado! Tenha misericórdia de mim e faça que eu tenha uma noite de sono maravilhosa e muito reparadora. Retire de todas as áreas da vida toda influência ou obra maligna na minha vida e na minha família que estão tirando a nossa paz, nos causando pesadelos ou outro tipo de perturbação que possa prejudicar as nossas noites de sono e os nossos bons sonhos. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> OBRIGADO PAI</div>
+        <div class="prayer-text">
+Senhor, obrigado por mais esse dia. Obrigado pela luz, pela água, pelo alimento, pelo trabalho, por este teto. Obrigado pela beleza das criaturas, pelo milagre da vida, pelo gesto amigo, pela inocência das crianças, pelo amor. Obrigado pela Sua presença em cada ser. Obrigada por seu amor que nos sustenta e nos protege, pelo seu perdão que me dá sempre uma nova oportunidade e faz crescer. Obrigada pela alegria de ser útil e com isso ter a oportunidade de servir a quem está do meu lado e de alguma forma, poder servir a humanidade. Que amanhã eu seja melhor. Quero antes de dormir perdoar e abençoar a quem me magoou neste dia. Quero também pedir perdão se magoei alguém. Abençoa senhor o meu descanso, e também dos meus entes queridos, meus familiares e meus amigos. Abençoa desde já a jornada de amanhã. Obrigado Senhor, boa noite!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> BOM SONHOS</div>
+        <div class="prayer-text">
+Senhor meu Deus e grande Pai Entro em tua presença neste momento para colocar a minha noite de sono em tuas mãos. Pai vou me deitar e dormir e peço para a essa noite seja tranquila, em tua palavra esta escrito que ❝ em paz me deito e logo adormeço, porque o Senhor me faz repousar em segurança ❞, por isso eu levanto a minha voz contra todo e qualquer mal que perturba minha noite e digo: PESADELOS, MEDOS, ANSIEDADES E PREOCUPAÇÕES, SAIAM DA MINHA VIDA! SAIAM DA MINHA NOITE DE SONO, SAIAM DA MINHA MENTE EM NOME DE JESUS! e eu determino que haja paz, tranquilidade, bons sonhos e descanso em minha noite de sono e que eu dormirei em paz durante a noite, em nome de Jesus. Amém e graças a Deus.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> BOA NOITE DE SONO</div>
+        <div class="prayer-text">
+Oração pela noite de sono. Senhor meu Deus, antes de ir dormir, elevo a Ti esta oração. Peço que o Senhor abençoe todas pessoas que estão indo dormir, e as que já estão dormindo, e as que vão dormir só mais tarde; Mesmo àqueles que trocam a noite de sono para trabalhar e sustentar suas famílias. Abençoe a todas as pessoas, dar a todos uma boa noite de descanso tranquilidade, paz e conforto. Abençoe o sono da minha família, pais, irmãos, filhos, esposa(o) e de todos os outros parentes. E abençoe o meu sono. E que, enquanto dormimos, o Senhor possa preparar o dia seguinte, para que seja abençoado, repleto de bons momentos, de alegria e de harmonia. O Senhor conhece nossas nescessidades, e eu creio na Tua fidelidade, e não deixa faltar o necessário diariamente, e nem deixa de cumprir com as promessas que o Senhor nos fez e faz. Agradeço, Senhor Deus, em nome de Jesus. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> VELA POR MIM</div>
+        <div class="prayer-text">
+Boa noite, meu Deus, que vela pelos filhos teus. Obrigada por este dia, pelas descobertas com sabedoria que me farão amadurecer. Agradeço também por aqueles que amo e, principalmente, por aqueles a quem preciso amar. Concede-nos uma noite tranquila, um sono saudável em família e que o amanhã de minha vida me receba mais fortalecido pelo amor e pela fé. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> COM DEUS</div>
+        <div class="prayer-text">
+Meu Deus e meu Pai, em Vossas mãos me entrego. Com Deus me deito, com Deus me levanto, com a graça de Deus e do divino Espírito Santo. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> GUARDAI-ME</div>
+        <div class="prayer-text">
+Muito obrigado Senhor e Pai pela vida e louvado seja o Criador por todas maravilhas. Dou-Vos graças por ter me criado, como cristão, conservado hoje. Perdoai-me faltas que cometi e, se algum bem fiz, aceitai-o. Guardai-me durante o repouso e livrai-me dos perigos. A vossa graça esteja comigo e com todos os queridos. Meu Deus dai-me luz para reconhecer os pecados que hoje cometi e ensina-me os meios de os evitar. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> ORAÇÕES PARA NOITE</div>
+        <div class="prayer-text">
+Meu Deus, me destes mais um dia! Eu vos agradeço a saúde e a força que me destes hoje. Nem tudo foi fácil hoje! Dai-me sempre muita paciência! Eu tive minhas falhas. Poderia ser um pouco melhor. Perdoai-me, Senhor! Meu Deus, ajudai-me para que amanhã eu seja um pouco melhor que fui hoje. Senhor, dai-me um sono tranquilo para recuperar as forças perdidas no trabalho deste dia. Abençoai minha família. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Vos Agradeço</div>
+        <div class="prayer-text">
+Querido Deus aqui estou… o dia terminou quero orar e agradecer. O meu amor eu Te ofereço. Te agradeço meu Deus por tudo o que Tu, meu Senhor, me deste. Guarda-me a mim ao meu irmão, meu pai e à minha mãe. Muito obrigado, meu Deus, por tudo quanto me deste, dás e darás. Amém em teu Nome, Senhor, descansarei tranquilo. Assim seja!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Abençoe as crianças</div>
+        <div class="prayer-text">
+Eu me dirijo ao Senhor que é Deus. Sei que o Senhor me ama, e eu também o amo. Sei que o Senhor quer o meu bem e que me protege. Vou agora me deitar. Ajude-me a ter um bom sono. Vele por mim. Vele por todas crianças do mundo, que também agora vão dormir. Amem…
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Já é Noite</div>
+        <div class="prayer-text">
+Lá fora já é noite, e eu vou agora me deitar, quero dizer-lhe boa-noite, ao Senhor que é Deus, ao Senhor que eu amo. Eu me entrego em suas mãos. Ajude-me a bem repousar. Ajude-me a não ter pesadelos. É ao Senhor que eu peço, porque é bom para mim e para com todas pessoas da terra. Obrigado por ser um bom Deus. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Bom Deus</div>
+        <div class="prayer-text">
+Meu Pai, minha alma se eleva a Ti para dizer: Creio em Ti, espero em Ti, e amo-Te com todas as minhas forças, glória a Ti, Senhor! Deposito nas tuas mãos a fadiga, a luta, as alegrias e desencantos deste dia que ficou para trás. Se os nervos me traíram, se os impulsos me dominaram se dei lugar à tristeza, perdão, Senhor!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Tem piedade de mim.</div>
+        <div class="prayer-text">
+Se fui infiel, se pronunciei palavras em vão, se me deixei levar pela impaciência, se fui um espinho para alguém, perdão Senhor! Nesta noite não quero entregar-me ao sono sem sentir na minha alma a segurança da tua misericórdia. Senhor! Eu Te agradeço, meu Pai, porque foste a sombra fresca que me cobriu durante todo este dia. Senhor! Ao redor de mim tudo já é silêncio e calma. Relaxa meus nervos, sossega o meu espírito, alivia as minhas tensões, inunda meu ser de silêncio e de serenidade. Vela por mim, Pai querido, enquanto eu me entrego confiante ao sono, como uma criança que dorme feliz em teus braços. Em teu Nome, Senhor, descansarei em paz. Assim seja! Ámem.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Entrego meu sono a Ti</div>
+        <div class="prayer-text">
+Meu Pai, agora que as vozes silenciaram e os clamores se apagaram, minha alma se eleva a Ti, para dizer: - Creio em Ti, espero em Ti, e amo-Te com todas as minhas forças, glória a Ti, Senhor! Deposito nas tuas mãos a fadiga e a luta, as alegrias e desencantos deste dia que ficou para trás. Se os nervos me traíram, se os impulsos egoístas me dominaram se dei lugar ao rancor ou à tristeza, perdão, Senhor!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Tem piedade de mim.</div>
+        <div class="prayer-text">
+Se fui infiel, se pronunciei palavras em vão, se me deixei levar pela impaciência, se fui um espinho para alguém, perdão Senhor! Nesta noite não quero entregar-me ao sono sem sentir na minha alma a segurança da tua misericórdia, a tua doce misericórdia gratuíta. Senhor meu Pai te agradeço, porque foste a sombra fresca que me cobriu durante todo meu dia. Eu Te agradeço porque, invisível, carinhoso e envolvente, cuidaste de mim como uma mãe, em todas essas horas. Senhor! Ao redor de mim tudo já é silêncio e calma. Envia o anjo da paz a esta casa. Relaxa meus nervos, sossega meu espírito, solta as minhas tensões, inunda meu ser de silêncio e serenidade. Vela por mim, Pai querido, enquanto me entrego confiante ao sono, como criança que dorme em teus braços. Em teu Nome, Senhor, descansarei tranquilo. Assim seja! Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Cuide de mim</div>
+        <div class="prayer-text">
+Querido Deus. O dia terminou. Algumas coisas deram certo, outras não. Mas sei que tudo foi conforme o Senhor planejou. Eu fico feliz e te agradeço, pois sei que sabes mais que eu, de tudo que eu preciso. Deus, sei que Tu já preparou o amanhã; Que eu seja feliz e não falte saúde e também suas providências. Senhor, cuide de mim e também todas pessoas que eu encontrar. Que assim seja. ✨Amém✨
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Para dormir bem</div>
+        <div class="prayer-text">
+Senhor Deus todo poderoso, defenda-me e proteja-me esta noite de todo e qualquer perigo ou cilada; Abriga-me em Tua proteção meu sono. Acolha todos meus entes queridos mesmo aqueles perto ou longe de Ti; Te suplico meu Senhor, visite este lar e de todos que suplicam, livra de todos os laços de maldade. Conceda-me um sono reparador e energia para que possa cumprir todas as obrigações e deveres amanhã. Que Sua bênção desça sobre todos nós. Em Seu nome agradeço! Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Noite Tranquila</div>
+        <div class="prayer-text">
+Boa noite, Pai. Termina o dia e a ti entrego meu cansaço. Obrigado por tudo e… perdão. Obrigado pela esperança que hoje animou meus passos, pela alegria que vi no rosto das crianças; Obrigado pelo exemplo que recebi daquele meu irmão; Obrigado também por isso que me fez sob sofrer… Obrigado por que naquele momento de desânimo lembrei de Tu Pai; Obrigado pela luz, pela noite, pela brisa, pela comida, pelo meu desejo de superação… Perdão, também, Senhor! Perdão por meu rosto carrancudo, Perdão porque não lembrei que não sou filho único, mas irmão de muitos; Perdão por aqueles que deviam pedir-te perdão e não se decidem. Perdoa-me Pai, e abençôe os meu propósitos para o dia de amanhã. Que ao despertar, me invada novo entusiasmo, que o dia de amanhã seja um ininterrupto SIM consciente. Boa noite, Pai. Até amanhã.
+        </div>
+    </div>
+
+    <!-- ORAÇÕES DA REFEIÇÃO (repetidas de forma resumida, mas já incluídas acima) -->
+    <div class="topo-link"><a href="#topo">⬆️ Voltar ao topo</a></div>
+
+    <hr class="divider">
+
+    <!-- ============================================ -->
+    <!-- HORAS DIFÍCEIS -->
+    <!-- ============================================ -->
+    <h2 class="section-title" id="horas-dificeis">⛈️ HORAS DIFÍCEIS</h2>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Dias de estresse.</div>
+        <div class="prayer-text">
+◈Deus, livre-me de todo estresse◈
+❖Da irritação: Livrai-me, Senhor!
+❖Das palavras grosseiras: Livrai-me, Senhor!
+❖Da impaciência com o próximo: Livrai-me, Senhor!
+❖Da raiva sem motivos: Livrai-me, Senhor!
+❖Da pressa sem necessidade: Libertai-me, Senhor!
+❖Da sobrecarga de preocupações: Libertai-me, Senhor!
+❖Do mau humor: Livrai-me, Senhor!
+❖Das palavras grosseiras: Livrai-me, Senhor!
+❖Da impaciência com o próximo: Livrai-me, Senhor!
+❖Da pressa sem necessidade: Libertai-me, Senhor!
+❖Da sobrecarga de preocupações: Libertai-me, Senhor!
+❖Das frustrações: Libertai-me, Senhor!
+❖Da competitividade que oprime: Libertai-me, Senhor!
+❖Da falta de tempo para mim mesmo: Curai-me, Senhor!
+❖Da ansiedade constante: Curai-me, Senhor!
+❖Da baixa autoestima: Curai-me, senhor!
+❖Da preocupação exagerada: Curai-me, Senhor!
+❖Das metas irreais: Purificai-me, Senhor!
+❖Dos pensamentos negativos: Purificai-me, Senhor!
+❖Do mau humor: Purificai-me, Senhor!
+❖Da angústia: Purificai-me e libertai-me, Senhor!
+❖Da competitividade que oprime: Purificai-me e libertai-me, Senhor!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Momentos de Angústia</div>
+        <div class="prayer-text">
+♛Momentos de Angústia♛
+Meu Senhor, minha alma está perturbada; a angústia, o medo e o pânico tomam conta de mim. Sei que isso acontece por causa da falta de fé nas Tuas mãos e de não confiar totalmente no Teu poder infinito. Perdoa-me, Senhor, e aumenta a minha fé. Em Teu nome, levanto a minha cabeça, Senhor, e expulso o medo e a angústia de minha alma. Em Teu Nome, Senhor, eu não temerei mal nenhum, porque sei que o Senhor é o meu Pastor e nada me faltará. Eu sei que o Senhor é protetor da minha vida; eu nada temerei. Sei que o Senhor estará comigo sempre, para me livrar de todos perigos.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Momentos de medo</div>
+        <div class="prayer-text">
+❂Momentos de medo❂
+Senhor, quero viver sem medos. Com uma santa indiferença, que hoje ainda não tenho. Quero crescer e ser mais teu, Jesus, mas não sei bem como me desprender dos meus medos. Por isso, eu te entrego cada um deles hoje (coloque seus principais medos). Abraça-me, Jesus, para que meu medo vá embora. Acompanha-me, Senhor, para que eu saiba ser corajoso. Ajuda-me a ter coragem, a ser um que abraça com amor a cruz de cada dia. Eu te peço, Jesus, que me libertes das minhas correntes. Torna-me mais teu. Ensina-me a amar como Tu amas.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Momentos de rejeição</div>
+        <div class="prayer-text">
+❝ мoмenтoѕ de rejeιção ❞
+Deus amoroso, você me fez quem eu sou. Eu o louvo e amo pois fui maravilhosamente feito à sua imagem. Mas quando zombam de mim por ser quem eu sou, me sinto machucado e até envergonhado. Então por favor, Deus, me ajude a lembrar do bem que há em mim vindo de você. Ajude-me a lembrar da minha dignidade que você me deu quando fui concebido. Ajude-me a lembrar que posso viver uma vida de amor, porque você criou meu coração. Fique comigo quando alguém faz com que eu me sinta inferior. E ajude-me a responder com um amor que respeite o outro, mas também me respeite. Ajude-me a encontrar amigos que me amem por ser quem eu sou. Ajude-me acima de tudo a ser uma pessoa amorosa. E, Deus, ajude-me a lembrar que Jesus me ama, pois ele também foi visto como um excluído. Ele também foi incompreendido. Ele também foi espancado, escarrado. Jesus me entende e me ama com um amor especial, pois você me fez desse jeito. E quando me sentir sozinho, ajude-me a lembrar que Jesus acolhia a cada um como amigo. Jesus lembrava a todos que Deus os amava. Jesus encorajava a cada um a abraçar a sua dignidade, mesmo quando todos estavam cegos para esta dignidade. Jesus amava a todos com o amor que você deu a ele, e ele me ama também. Mais uma coisa, Deus: me ajude a lembrar que nada é impossível para você, que você sabe como melhorar as coisas, que você pode encontrar um caminho de amor para mim. Mesmo que eu não o veja agora, ajude-me a lembrar de tudo isso no coração que Você criou, Deus amoroso. ♛ Amém ♛
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Preocupação financeira</div>
+        <div class="prayer-text">
+Mateus 6,28-34 Olhai como crescem os lírios do campo. Não trabalham, nem fiam. No entanto, eu vos digo, nem Salomão, em toda a sua glória, jamais se vestiu como um só dentre eles. Ora, se Deus veste assim a erva do campo, que hoje está aí e amanhã é lançada ao forno, não fará muito mais por vós, gente fraca de fé? Portanto, não vivais preocupados, dizendo: ❝-Que vamos comer? -Que vamos beber? -Como nos vamos vestir? ❞ São os pagãos que se preocupam com tudo isso. Vosso Pai que está nos céus sabe que precisais de tudo isso. Buscai em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas vos serão dadas por acréscimo. Então, não vos preocupeis com dia de amanhã, pois o dia de amanhã terá sua própria preocupação! A cada dia basta os seus próprios problemas.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Momento de desemprego</div>
+        <div class="prayer-text">
+Jesus, abre-me uma porta!🚪
+Senhor, atende este clamor que brota do mais íntimo do meu coração: abre-me uma porta! Só Tu sabes e conheces, Jesus, o momento de dificuldade pelo qual eu minha família estamos passando por causa do desemprego. Tu sabes também, Senhor, com esperança eu me aproximo de Ti para pedir que vás à minha frente, abrindo uma porta e preparando um emprego, para que através de um trabalho digno, dar à minha família ❝o pão de cada dia❞🍞. Por que tu és, Deus, minha esperança! Peço ainda que me concedas todo ânimo, confiança, destemor e fortaleza para sair de casa em busca de trabalho, na certeza de que Tuas mãos, estendidas em meu favor, baterão nas portas antes de mim, preparando a minha entrada num bom emprego. Confiando na Tua Palavra que diz: ❝Batei e abrir-se-á…, ao que bater se lhe abrirá❞. Agradeço de todo o meu coração, porque acredito que ❝a Deus nenhuma coisa é impossível❞. Jesus Misericordioso, abre-me uma porta e concede-me esta graça!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Momentos de mudança</div>
+        <div class="prayer-text">
+Deus, dai-me a serenidade para aceitar as coisas que não posso mudar, coragem para mudar as coisas que eu possa, e sabedoria para que eu saiba a diferença: vivendo um dia a cada vez, aproveitando um momento de cada vez; aceitando dificuldades como caminho para paz; indagando como fez Jesus a este mundo pecador, não como eu teria feito; aceitando que o Senhor tornaria tudo correto se eu me submetesse à sua vontade para que eu seja razoavelmente feliz, e extremamente feliz com o Senhor para sempre no futuro. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Horas de dificuldades</div>
+        <div class="prayer-text">
+Senhor Deus de Bondade, venho diante de ti para agradecer todo o bem que realizas na minha vida. Eu te peço, Senhor, a graça da perseverança em todas situações, especialmente naquelas mais difíceis, que me exigem paciência, confiança e firmeza. Sei seu nunca estarei só e que sempre posso contar com Teu auxílio. Dá-me superar o medo e a insegurança e que eu possa com a tua graça, oferecer apoio a todos aqueles que se aproximarem pedindo auxílio. Tudo isso eu te peço por Jesus Cristo, teu filho e nosso irmão, Amém!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Momentos de medo (2)</div>
+        <div class="prayer-text">
+Deus, meu amado Pai sonda o meu coração que estará aberto para Ti. Tu conheces minha natureza, E todas as minhas fraquezas. Diante de ti sou tão pequeno, mas me engrandeço na Tua presença e na fé que me conduz ao Seu caminho. Eu lhe peço que fique comigo, me ajude neste momento de medo. Cubra-me com a Tua misericórdia, afague-me com o Teu abraço e me sustente com a Tua mão. O fardo é mais leve quando estou contigo, a fé alimenta minha alma enche me de vida. Querido Pai, guia-me para o caminho reto, envolva-me de bênçãos e vitórias. Confio em Ti e esperarei porque o melhor tempo é o tempo do Senhor. Que o Espírito Santo esteja comigo em todos os momentos da minha vida, envolvendo-me de proteção e luz. Obrigada por me escutar, Pai. 🌿 Amém 🌿
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Necessidade de emprego</div>
+        <div class="prayer-text">
+Com confiança, apresente ao Senhor a sua necessidade de um emprego
+O Senhor nos ensina: ❝ Viverás do trabalho de tuas mãos, viverás feliz e satisfeito. ❞
+Pai querido, preciso sustentar a mim e a minha família. Antes mesmo de pedirmos ao Senhor, já sabes minha necessidade de um emprego. Sei que é de Tua vontade que trabalhemos, e hoje preciso de um emprego para cumprir essa Tua vontade. Sei que o mercado de trabalho está difícil, com poucas vagas disponíveis. Mas sei que o Senhor vai me conduzir com as minhas necessidades e capacidades físicas, e espirituais. Eu peço, desde já, por meus empregadores: que suas necessidades possam ser supridas pelas minhas qualificações e sabedoria. Ajuda-me a ser uma bênção nesse trabalho que tens em mente para mim. Quando as portas se abrirem, orienta-me por qual devo entrar. Sabendo que, a cada dia devo viver como um operário da vinha do Senhor, um homem de Deus que quer cuidar da família. Agradeço-Te por esse novo emprego. Louvado seja Teu nome para sempre. Amém!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Decepções afetivas</div>
+        <div class="prayer-text">
+🙏 Oração cura das feridas da afetividade.
+Eu te louvo, Senhor, pelo dom da minha vida. Senhor, pela graça de seu Espírito Santo, toque em todas as áreas do meu coração, principalmente onde há feridas, decepções, mágoas, tristezas que porventura surgiram de relacionamento de namoro desfeito, mal vivido. Senhor, eu (seu nome) quero renunciar toda e qualquer forma de desamor que possa estar em meu coração, se houver falta de perdão, quero perdoar (nome da pessoa), por ter causado sofrimento, tristeza, raiva, e tantas coisas nocivas ao meu coração, principalmente se surgidas de uma traição. Jesus, se humanamente é difícil perdoar, dai-me a graça do perdão que jorra de Seu lado transvasado pela lança, onde a misericórdia se faz presente a todos que dEle se achegam, restaurando assim minha afetividade. Senhor Jesus Cristo, fonte e manancial de Amor, derrame sobre mim, sem medida, toda a graça do teu Amor, curando as feridas provocadas pelo desamor, suprindo toda carência afetiva/emocional, restaurando as minhas emoções e sentimentos, preenche todo vazio da solidão com Seu Amor, só o Senhor conhece todas minhas necessidades, atendei-me! Que assim seja… 🍂 Amém 🍂
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Ajuda-me Senhor</div>
+        <div class="prayer-text">
+Ajudai-me, Senhor, A amar como Tu me amas e a compreender como Tu me compreende. Ensina-me Senhor, a aceitar os outros como Tu me aceitas, respeitando-os como Tu me respeitas e suportando-os com paciência, com Tu me suportas com paciência infinita. Ajuda-me, Senhor a perdoar, como Tu me perdoas e a fazer pelos outros todo o bem que fazes por mim. Senhor, Tu que me aceitas como eu sou, ajuda-me a ser o que Tu queres que eu seja, Tua semelhança no amor. Transforma o meu coração para que ele seja bom, justo, manso, paciente, compreensivo, generoso, tolerante e cheio de misericórdia, para que através do meu amor humano, semelhante ao teu, eu possa levar ao meu irmão a alegria, a paz, o consolo, a esperança, o perdão e a salvação do Teu amor Divino. Amém!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> VENCER DIFICUDADE</div>
+        <div class="prayer-text">
+Senhor nosso Deus És Todo-Poderoso Pai, eu venho em tua presença neste momento, pois estou passando por dificuldade, e quero através desta oração, colocar diante de Ti a necessidade de Tua intercessão, interceda por mim Senhor, entre na minha causa, trabalhe na minha causa! Pois já não sei mais o que fazer! Em nome de Jesus! Confesso agora, que sou mais do que vencedor em Jesus! Recebo a minha vitória contra dificuldades em Seu nome! Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Momentos de Insegurança</div>
+        <div class="prayer-text">
+Momentos de insegurança. Pai, Às vezes tenho dificuldade em ver-me da forma que o Senhor me vê. Com isso sinto me fraco, incapaz e inseguro para enfrentar a vida. Peço-Te que sempre me lembre, através de Sua palavra e orações, que não estou só nesta difícil caminhada. Obrigado por me fazer tão especial, de não desistir de mim mesmo quando cometo erros ou faço escolhas. Ajuda-me a mudar o que não posso, tornando-me melhor e mais parecido com o Seu filho Jesus. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Momentos de desespero</div>
+        <div class="prayer-text">
+Momentos de insegurança. Pai, Às vezes tenho dificuldade em ver-me da forma que o Senhor me vê. Com isso sinto me fraco, incapaz e inseguro para enfrentar a vida. Peço-Te que sempre me lembre, através de Sua palavra e orações, que não estou só nesta difícil caminhada. Obrigado por me fazer tão especial, de não desistir de mim mesmo quando cometo erros ou faço escolhas. Ajuda-me a mudar o que não posso, tornando-me melhor e mais parecido com o Seu filho Jesus. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Momentos de dificuldade</div>
+        <div class="prayer-text">
+Bom Pastor. Meu Deus eu me sinto tão impotente, vem ser a minha Força. Eu sinto uma perda, como se tirasse o chão dos meus pés, vem ser minha Rocha firme, onde eu possa construir a minha vida. O meu coração é habitado pelas dúvidas e incertezas, vem Senhor ser meu consolo e minha segurança. Meu Deus, eu me sinto tão sozinho, e nenhuma pessoa pode preencher o vazio, derrama sobre mim o fogo do Teu amor. Só Teu amor pode curar neste momento, com Tuas mãos toca-nos e seremos renovados. Coloca-me nos Seus ombros como ovelha encontrada pelo Bom Pastor. Que assim seja. Amém…
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Caminhada difícil</div>
+        <div class="prayer-text">
+Abençoe minha caminhada Senhor, sábio dos Sábios Pai de toda criação; Põe a doçura em meus lábios e a fé no meu coração. Sol de amor que me conduz, na vida em que agasalho; Enche os meus olhos de luz e minhas mãos de trabalho. Dai-me forças no caminho, para lutar e vencer; Transformando todo espinho, em flores do meu dever. Pai, não te esqueças de mim nas bençãos da compaixão, de paz e amor sem fim. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Dificuldade financeira</div>
+        <div class="prayer-text">
+Dificuldade financeira Senhor, não queremos pedir dinheiro e riqueza. O que pedimos, Senhor, é que não nos deixe faltar o necessário. Senhor, aumenta em nós a confiança na Tua providência. Senhor, que não falte pão de cada dia. Tire a ansiedade e o medo de que nos falte algo para o dia seguinte. Cuide de nós, Senhor, fazendo que consigamos o equilíbrio na vida financeira e o nos negócios. Afaste, Senhor, de nossas vidas aqueles que possam nos prejudicar. Afaste, Senhor, as pessoas que se aproximam com má intenção. Senhor Deus pedimos: (Բɑçɑ รɛu pɛɗiɗѳ) Dai-nos um espírito cooperador, e de solidariedade e de justiça. Senhor Deus mostre o Teu poder nesta minha crise financeira. Ajude-nos a sair desta situação. Senhor, ajudai-nos a superar os problemas financeiros. Em Seu poderoso nome, Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Causas Impossíveis</div>
+        <div class="prayer-text">
+Oração das causas impossíveis. Senhor, diante de tantos testemunhos, que alimentam a nossa fé, venho aqui fazer a oração das causas impossíveis. Porque tenho fé que o senhor é o Deus do impossível. Então te peço agora em Seu nome, faça o impossível em minha vida! Ó Deus que abriu o mar vermelho, derrubou as muralhas e fez um morto de quatro dias ressuscitar, além dos paralíticos voltarem andar. Tenho uma causa impossível e coloco-a em tuas mãos, e pela minha fé, creio que a causa está ganha! Em nome de Jesus Cristo! Que o mal que atrapalha saia! Que o bem que abençoa venha sobre mim em nome do Senhor Jesus Cristo!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Contra depressão</div>
+        <div class="prayer-text">
+Contra depressão Senhor hoje pedimos a graça da libertação da depressão por nós e aqueles cujos nomes lembramos… (ｄｉｇａ ｏｓ ｎｏｍｅｓ…) Em nome de Jesus liberta-me Senhor da depressão. Em nome de Jesus liberta-me da angústia. Em nome de Jesus liberta-me da ansiedade. Senhor que o Teu poder libertador, livre e liberte da depressão retirando todas as amarras, todas as formas de angústia. Cure Senhor esse mal se instalou, arranque pela raiz esse problema, cure as lembranças dolorosas, traumas, ressentimentos e marcas ruins. Senhor Deus, que a alegria transborde profundamente em meu ser. Com Teu poder e em nome de Jesus, refaça minha história, meu passado e meu presente. Livra-me Senhor de todo o mal, e que nos momentos de solidão, de descaso e de rejeição, eu seja libertado na Tua presença. Eu renuncio no poder libertador de Nosso Senhor Jesus Cristo, ao medo, à incerteza, à desesperança e me apego em Teu poder Senhor, em Tua graça, em Tua bênção. Dai-me Senhor a graça da libertação da depressão. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Contra enfermidades</div>
+        <div class="prayer-text">
+Oração para saúde Senhor, dai-me saúde para meu corpo e que eu coopere com uma vida correta para que seja digna de Vossa ajuda. Senhor, por Vos honrar e reportar a Vós agradecimentos e louvores, quanto me enriqueceis, não deixando faltar nunca que preciso, coroando de grande êxito as jornadas. Vos louvo por tão grande bondade! Que eu Vos agradeça Senhor, não só com palavras, mas sobretudo com uma vida em santidade. Vós que castigais os que amais, como o pai que pune o filho rebelde a quem muito estima, agradeço por todos momentos que sofri sentindo Sua mão descer pesada sobre mim, mas sempre tão cheia de misericórdia. Quanto aprendi e aprendo Convosco, Pai! Que nada se pode igualar ao Vosso amor. Obrigado, Senhor.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Para acalmar</div>
+        <div class="prayer-text">
+Oração para acalmar Pai ensine-me a ter paciência. Dê-me a graça de suportar aquilo que não posso modificar. Ajude-me a gerar fruto da paciência na tribulação. Dê-me paciência para lidar com os defeitos, limitações do outro. Dê-me sabedoria e forças para superar as crises no trabalho, em casa, entre amigos e conhecidos. Senhor conceda-me a paciência, liberte-me de tudo o que é ansiedade e que me deixa em desarmonia. Dê-me o dom da paciência e da paz, especialmente quando sou humilhado e me falta paciência para caminhar. Dê-me graça para superar toda e qualquer dificuldade que temos com o outro. Vem, Espírito Santo, derramando dom do perdão no coração para que possa recomeçar todas manhãs e estar sempre disposto a compreender e perdoar o outro. Eu lhe peço, Senhor, em nome de Jesus, dê-me a graça de ser o suporte que o outro precisa. Amém.
+        </div>
+    </div>
+
+    <div class="topo-link"><a href="#topo">⬆️ Voltar ao topo</a></div>
+
+    <hr class="divider">
+
+    <!-- ============================================ -->
+    <!-- VARIADAS -->
+    <!-- ============================================ -->
+    <h2 class="section-title" id="variadas">🕊️ ORAÇÕES VARIADAS</h2>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Agradecimento de Natal</div>
+        <div class="prayer-text">
+Senhor, meu Deus, quero dar graças por todos os dias que vivi neste ano que está acabando. Em muitos momentos pude sentir bSua presença próxima de mim, bpude ver Suas mãos me conduzindo, bSeus olhos me observando todo momento, bDou graça por minha família e meus amigos, btodas as bençãos que realizou em minha vida; bCom tua presença, o natal será feliz be no próximo muito próspero. Obrigado Senhor Deus e pai.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Uma oração de Natal</div>
+        <div class="prayer-text">
+Senhor Jesus, que veio ao mundo para nos salvar, estamos reunidos para agradecer a graça de sermos sua família. Em torno desta mesa queremos que nossa vida seja partilha. Neste ano que passou, procuramos viver com harmonia, mas nem sempre conseguimos, confessamos que somos limitados, que aconteceu erros e acertos. Hoje, queremos glorificar seu perdão, sei que a vida é muito curta, não queremos perder tempo precioso, cultivando as intrigas e as inimizades. Perdoamos a todos os que nos ofenderam e suplico o perdão a todos que ofendi. Senhor, pedimos também por todos os que não estão aqui hoje, nossos amigos e parentes, inclusive por aqueles que já partiram, que sejam todos abençoados. Afasta deste lar e de nossas vidas, tudo aquilo que não provém de Ti. E que sempre, em toda circunstância, reconheçamos Tua divindade e poder. Que nossa família não se afaste de Ti. Louvamos graças por cada um aqui presente. Que no ano que se aproxima possamos todos viver sem divisões. Senhor, que seja feita Tua vontade e queremos nos dispor a Teu serviço. Que assim seja, Senhor Deus Pai.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> 🎄 Oração de Natal 🎄</div>
+        <div class="prayer-text">
+Senhor, nesta Noite Santa, depositamos diante de Tua manjedoura todos os sonhos, lágrimas e esperanças contidos em nossos corações. Pedimos por aqueles que choram sem ter quem lhes enxugue uma lágrima. Por aqueles que gemem sem ter quem escute seu clamor. Suplicamos por aqueles que Te buscam sem saber ao certo onde Te encontrar. Para tantos que gritam paz, quando nada mais podem gritar. Abençoa, Jesus-Menino, cada pessoa do planeta Terra, colocando em seus corações um pouco da luz eterna que vieste acender nessa noite de nossa fé. Em nome de Jesus, nosso Senhor! Amém!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Oração para hoje</div>
+        <div class="prayer-text">
+Pai, obrigado por ser meu abrigo quando as tempestades da vida tentam tirar minha paz. Mesmo eu, não tendo respostas, escolho confiar em TI. Minha esperança não está nos homens, mas no Senhor Deus pai e criador que me dá paz e força para prosseguir. Obrigado por estar comigo todos os dias da minha vida! Em nome de Jesus, Amém!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Ilumina meu caminho</div>
+        <div class="prayer-text">
+Meu bom Deus, nós esperamos em vós e pedimos luz, ajuda para a minha caminhada. Dai-me ânimo, coragem e renovai minha força. Senhor Deus entrego a minha vida e o meu amanhã em Tuas mãos. Tu és o Deus que pode me direcionar, quero viver em Teus caminhos, transforma o meu coração. Ansio por Ti Senhor, sê conosco! Em nome de Jesus, amém! ❝ Porém tu, Senhor, és um Deus cheio de compaixão, e piedoso, sofredor, e grande em benignidade e em verdade. ❞ รαlмσร ⁸⁶⁻¹⁵
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Louvor a Deus Pai</div>
+        <div class="prayer-text">
+Ó esplendor do Pai. Ó luz da luz divina, fonte da luz és dia, que os dias iluminai sol da verdade eterna. Fulgor jamais fanado, infunde nosso peito, o Espírito Sagrado. Governa a nossa mente, corpo e o coração. Concede fé ardente, amor e contrição. Ao Pai e Filho glória, ao Espírito também, louvor, honra e vitória agora e sempre. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Anjo da guarda</div>
+        <div class="prayer-text">
+Santo Anjo do Senhor, meu zeloso guardador, se a ti me confiou a piedade divina, sempre me rege, me guarde, me governe, me ilumina. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Abre caminhos</div>
+        <div class="prayer-text">
+Poder de Pai que resides em mim, aplanai os caminhos, e facilitai-me andar por eles com os meus pés. Com o Vosso amor agindo sobre mim, nada será dificil. Ó Pai! Fazei todas as coisas por seu intermédio, assim, minha vida será bem mais calma e livre de responsabilidades pesadas. Assim seja. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Oração de ajuda</div>
+        <div class="prayer-text">
+Ajudai-me, Senhor, a amar como Tu me ama e compreender como Tu me compreende. Ensina-me, Senhor, a aceitar os outros como Tu me aceitas, respeitando como Tu me respeita, e suportando com paciência, com Tu me suporta com paciência. Ajuda-me a perdoar como Tu me perdoa e a fazer pelos outros todo o bem que Tu fazes por mim. Senhor, Tu que me aceitas como sou, ajuda-me a ser o que Tu queres. Tua semelhança no amor, Transforma o meu coração para que ele seja bom, justo, manso, paciente, compreensivo, generoso, tolerante e cheio de misericórdia, para que através do meu amor humano, seja como ao Teu, eu possa levar ao meu irmão a alegria, a paz, o consolo, a esperança, o perdão e a salvação do Teu amor Divino. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Oração para os filhos</div>
+        <div class="prayer-text">
+Oh! Deus, Olha para os nossos filhos. Fortifica-os para que cresçam felizes e tenham olhos que lembrem a tranquilidade de um lago, a firmeza de um rochedo e a luz da esperança. Dá-lhes uma saúde integral, uma inteligência completa e um sentimento vivo. Põe nos seus corações seus ensinamentos, o respeito aos outros, o amor ao trabalho, a dedicação ao estudo e a obediência. Para tornar-nos dignos deles e não lhes transmitir nervosismo, desajuste, tristeza, maldade, envolve-nos em tranquilidade, equilíbrio, alegria e bondade. E ensina-nos a descobrir as virtudes que eles têm, a elogiá-los sem exageros e a corrigi-los com sabedoria. Em primeiro lugar modela-nos a alma generosa, para amá-los na semelhança do Teu amor. AMÉM.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Para um lar feliz</div>
+        <div class="prayer-text">
+Senhor Jesus, Tu viveste em uma família feliz. Faze nesta casa a morada de Tua presença, um lar quente e afortunado. Venha a tranquilidade para todos moradores, a serenidade para nossos servos, o controle para nossas línguas, a saúde para nossos corpos. Que os filhos sejam e sintam-se amados e se afastem deles para sempre a ingratidão e o egoísmo. Inunda, Senhor, o coração dos pais de paciência e de compreensão, e de uma generosidade sem limites. Estende, Senhor Deus, um toldo de amor para abrigar, refrescar, aquecer e amadurecer todos os filhos desta casa. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Da-me Força</div>
+        <div class="prayer-text">
+Ó Senhor, preserva meus lábios de pronunciar o mal, o engano e a fraude. Dá-me a força de não revidar a quem me ultraja. Faz com que me dê alegria ao cumprir os preceitos e que eu compreenda plenamente nas Tuas Leis. Faz com que eu não seja soberbo. Anula os projetos perversos que me deseja fazer algum dano. Concede-me sabedoria, paciência, inteligência, meios de subsistência, piedade e misericórida. Tu, que estabeleceste a harmonia de todo o ser vivo, conceda a paz.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Coração de Jesus</div>
+        <div class="prayer-text">
+Ó Jesus Cristo, vós sois adorado no céu e na terra, em todo o tempo e a toda hora: sois a paciência, a compaixão e a própria misericórdia; amais os justos, tendes piedade dos pecadores, chamais todos os homens à salvação e lhes prometeis os bens futuros. Acolhei as nossas orações deste dia, confirmai nossa vida à sua vontade; santificai nossas almas e corpos, purificai nossos pensamentos, tornai-nos vitoriosos sobre a tristeza; protegei-nos e abençoai-nos para que cheguemos à unidade da fé e ao conhecimento de vossa glória. Vós que sois Deus, e o Pai, e o Espírito Santo. Amém!
+        </div>
+    </div>
+
+    <div class="topo-link"><a href="#topo">⬆️ Voltar ao topo</a></div>
+
+    <hr class="divider">
+
+    <!-- ============================================ -->
+    <!-- PARA FAMÍLIA -->
+    <!-- ============================================ -->
+    <h2 class="section-title" id="familia">🏠 PARA FAMÍLIA</h2>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Oração para filho(a)</div>
+        <div class="prayer-text">
+Senhor, quero te agradecer pela vida do meu filho(a). Ele representa para mim a manifestação do teu amor em nosso lar. É uma grande responsabilidade prepara-lo para a vida, por isso te peço, dá-me recursos e sabedoria para sempre escolher e fazer o melhor. Que eu possa amar, compreender e guia-lo ao caminho correto. Entrego em suas mãos, Senhor, minha família e meu filho amado para que nos abençoe. ▂▃▅▇ ɑɱéɱ ▇▅▃▂
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Oração pelos filhos.</div>
+        <div class="prayer-text">
+Deus. cuida dos meus filhos, prepara o caminho e guie seus passsos, sei que posso não estar com eles em todos momentos do dia, mas peço humildemente Senhor, vai onde não posso ir, e proteja eles de todos os males. αʍéʍ
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> 🏡Para nosso lar🏡</div>
+        <div class="prayer-text">
+Agradeço-te ó Deus porque este recinto está cheio da Sua gloriosa presença. Agradeço-te porque vivo em Tua vida, verdade, saúde, prosperidade, paz, sabedoria, alegria e amor incondicional. Pai de toda misericórdia, criador de tudo e de todos, te peço, assim como visitaste e abençoaste a casa de Abraão, de Isaac e Jacó, visita-nos e guarda-nos em teus braços. Guarda estas paredes de todos perigos: -do incêndio, da inundação, de raios, de assaltos e qualquer outro mal. Peço também a proteção e saúde para todos os que habitam aqui. Abençoe e guarde este lar e todos que o visitam. P㊉R CRISŦ㊉ JESUS, AMÉM.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> 💐Abençoa Senhor💐</div>
+        <div class="prayer-text">
+Que nenhuma família comece em qualquer de repente💫, Que nenhuma família termine por falta de amor💔, Que o casal seja um para o outro💑 de corpo e de mente, E que nada no mundo separe um casal sonhador✨! Que nenhuma família se abrigue debaixo da ponte🌉, Que ninguém interfira no lar e na vida dos dois💕, Que ninguém os obrigue a viver sem nenhum horizonte⛅, Que eles vivam do ontem, do hoje em função de um depois⏳, Que a família comece e termine sabendo onde vai🔰, E que o homem carregue nos ombros a graça de um pai👷‍♂️ Que a mulher seja um céu de ternura, aconchego e calor🔥, E que os filhos conheçam a força que brota do amor!🌱 Abençoa Senhor as famílias!💦 Amém🙏! Abençoa, Senhor, a minha também🌞.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> 🎈Para Crianças🎈</div>
+        <div class="prayer-text">
+Jesus, tanto amaste as crianças e por elas tiveste muita atenção. Ainda sou criança, mas já creio em Ti, Jesus. Sei que és o meu Salvador e sei também que a minha vida só tem sentido com o senhor. Ensina-me, ó Jesus, a ser obediente aos meus pais, a gostar de estudar e ir à igreja. Quero sempre teu amor, Jesus. Quero viver minha infância com você, buscando sempre estar perto de Ti. Ensina-me, ó Jesus, a lutar pelas coisas boas. Jesus, que também já foi criança, me dê sabedoria, para no mundo, eu possa viver sempre com você. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> A PAZ ENTRE PAIS É FILHO</div>
+        <div class="prayer-text">
+Amável Jesus, morrestes na cruz para a paz entre Deus e os homens. E o fruto mais precioso da Vossa paixão foi aquela paz que transmitistes aos apóstolos no dia da ressurreição. Vós lhes ordenastes que levassem a paz a toda casa onde entrassem. Neste momento dai-nos também a paz que o mundo não nos pode dar. Concedei-nos, a todos nesta família, guardemos a paz de uma boa consciência, para que o Vosso Amor Incondicional reine entre nós todos. Que esta união exista entre nós aqui na terra e continue no céu. Guardai-nos de toda ira e impaciência, da perigosa desconfiança e maledicência, de discussões e brigas. Deus da paz e do Amor Incondicional, concedei-nos que vivemos a paz familiar todos dias da nossa vida, a fim de que cheguemos um dia à completa e verdadeira paz em Vossa presença eterna. Amém!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Agradeço pelo pais</div>
+        <div class="prayer-text">
+Senhor, agradeço pelo pai que me deu e os qual tanto admiro em meu coração. Fazei que eu o ame sempre mais e que ele se sinta também amado. Aumenta Senhor, sua alegria e não permita que me torne só um peso para ele. Não deixe Senhor, que decepções o abata, ou desânimo o domine. Ajuda-o a enfrentar com fé e coragem, suas responsabilidades do dia a dia do melhor modo possível. Que seja firme e severo quando preciso, sem deixar de ser uma boa pessoa. Que ele saiba perdoar minhas fraquezas. Que eu não repare, em seus defeitos, mas em suas qualidades de pai, e que eu saiba não só admirar seus bons exemplos, mas imitá-los. Conserva ó Deus, no Vosso amor. E que nossa família vivendo unida, sob seus cuidados e as Vossas bênçãos, possa também viver unida no céu, para cantar Vosso nome, ó Pai dos pais.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> 👴Oração para pai.👴</div>
+        <div class="prayer-text">
+Senhor Deus agradeço-vos pelo meu Pai. Este herói que admiramos de coração. Fazei que o ame sempre mais e que ele se sinta amado. Aumentai-lhe as alegrias, não permita que eu seja apenas um peso para ele. Não deixeis que os desenganos o abatam, ou o desanimo o domine sem permissão. Que seja sereno, firme quando precisar, sem deixar de ser bom. Que ele não se perca na impaciência, mas saiba perdoar minhas fraquezas. Que eu não repare seus defeitos, mas suas qualidades e valores, que saiba não só admirar bons exemplos, mas também imitá-los. Conservai-o ó Deus, no vosso amor, e que nossa família vivendo unida, sob os seus cuidados e Vossas bênçãos, possa também viver unida no céu, para cantar o Vosso nome, Ó Pai dos Pais. ♦ Amém ♦
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> ☀Oração da família.☀</div>
+        <div class="prayer-text">
+Senhor, nós vos louvamos pela nossa família e agradecemos a Vossa presença na minha moradia. Ensinai-nos a viver a Vossa palavra e o Vosso mandamento de amor, a exemplo da FAMÍLIA DE NAZARÉ. Concedei-nos a capacidade de compreendermos nossas diferenças de idade, de sexo, de caráter, e para nos ajudarmos mutuamente, perdoarmos nossos erros e vivermos em harmonia. Dai-nos, Senhor, saúde, trabalho e um lar onde possamos viver felizes. Ensinai-nos a partilhar o que temos com os mais necessitados e empobrecidos. Que em nossa família reine a confiança, a fidelidade, o respeito mútuo, para que o amor se fortifique e nos una cada vez mais. Permanecei em nossa família, Senhor, e abençoai nosso lar hoje e sempre. ☀Amém!☀
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> FELICIDADE NO LAR</div>
+        <div class="prayer-text">
+Senhor, faz de nosso lar um ninho do Teu amor. Que não haja amargura, porque Tu nos abençôas. Que não haja egoísmo, porque Tu nos animas. Que não haja rancor, porque Tu nos perdoas. Que não haja abandono, porque Tu estás conosco. Que saibamos caminhar para Ti em nossa rotina diária. Que cada manhã seja o início de um dia de entrega, sacrifício. Que cada noite nos encontre ainda mais unidos no amor. Faz Senhor da nossa vida uma página cheia de Ti. Faz Senhor dos nossos filhos o que Tu anseias e mereçam. Ajuda-nos a educá-los e orientá-los pelos Teus caminhos. Que façamos do amor um motivo para amar-Te mais. Que possamos dar o melhor de nós para sermos felizes no lar. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> 🏡 Oração para casa. 🏡</div>
+        <div class="prayer-text">
+Senhor Jesus Cristo eu (diga seu nome) coloco a minha casa, minha família e todos os que moram comigo. Sobre a proteção do Vosso precioso sangue protegei está casa contra assalto, incêndio, violência, e todo o mal. Qualquer pessoa que tenha mal intenção, não consiga permanecer nesta casa, nem passe por esta porta, que introduzo esta oração assim como Senhor protegeu todas as casas israelitas. Que minha casa por meio desta oração seja marcada com o sangue do Senhor, sinal de proteção contra qualquer tipo de flagelo. Com a oração enfim, que esta porta seja marcada e selada com o sangue libertador do nosso Senhor Jesus. 🏠Amém.🏠
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Oração para família</div>
+        <div class="prayer-text">
+Oração para família Senhor, concedei a mim e família, a graça de Vos buscar antes de todas as coisas, pois somente assim poderemos viver na unidade. Vinde com Vosso Espírito sobre meu lar e removei os problemas que existam. Que ajamos como se tudo dependa de nós, mas certos de que somente por Vossa graça, mesmo em meio a sofrimentos, permanecer na Vossa paz. Que sejamos profundamente amigos, ajudemo-nos mutuamente a crescer na prática da fé e reavivemos sempre mais o amor que selamos diante de Vós, num compromisso sagrado e para sempre. Dai-nos saber amar profundamente, como amastes e amais Teu povo. Que nos lembremos que o maior presente que nossos filhos podem receber, é o amor que exista entre nós, seus pais. Vinde Senhor restaurai minha família e as famílias do mundo inteiro. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Oração para filho</div>
+        <div class="prayer-text">
+👦Oração para filho.👦 Senhor, eu Vos recomendo (nome_filho), que os maus instintos não encontrem lugar em seu coração e sua mente. Que a malícia não perverta seu coração. Que a corrupção do meio ambiente e os maus exemplos não anulem efeitos da Vossa graça em seu coração. Que ele encontre apoio no amor dos pais, e na amizade dos bons companheiros. E, assim, seja libertado dos maus hábitos, e encontre Teu amor Senhor. ◊ Amém ◊
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Oração para filha</div>
+        <div class="prayer-text">
+👧Oração para filha.👧 Senhor é tão bom ter uma filha! No entanto, como é difícil educar! Faze com que possa compreendê-la em todas as situações difíceis. Que seja paciente com suas atitudes, severo, duro, se for necessário, mas possa partilhar suas tristezas, e tentar esquecer suas faltas. Que sua linguagem me seja fácil, que eu aceite suas incapacidades. Que ela tenha certeza do meu apoio, de minha ternura e do meu amor. Faze com que ela seja sempre feliz. E que eu possa dizer: -Senhor obrigado pela filha que me deste! ♥ Amém ♥
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Agradecimento pela família</div>
+        <div class="prayer-text">
+✨Agradecimento pela Família✨ Senhor, Agradeço pela minha família; Agradeço pela Vossa presença no lar; Te agradeço pelo pão de cada dia, que o Senhor nunca deixou faltar; Agradeço pela união em minha família. Já agradeço pelas maravilhas que Tens realizado em minha família. A minha família é bênção que recebi de Ti, Senhor. Senhor, me ensina a tratar minha família com amor, edifica minha casa com Teu louvor. Neste momento que estou em oração no Teu colo Jesus, desejo dizer de todo meu coração: Eu e minha casa serviremos ao Senhor. Obrigado Jesus pela família que me deste. ✨Amém!✨
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Oração para mãe</div>
+        <div class="prayer-text">
+👵Oração para mãe.👵 Obrigado Deus pela mãe que me deste! Sua presença serena inspira confiança; Seu serviço constante ensina a amar; sua vivência simples desperta a fé; Seu olhar profundo inspira bondade; Sua ternura leva-me a acolher; Seu semblante tranquilo fala do teu rosto materno, ó Deus! Acompanha Senhor, minha mãe, nas alegrias e nas lágrimas, os trabalhos e nas preocupações. E quando suas forças dimiuírem pela idade, que eu redobre a minha ternura, que a solidão não a possa alcançar. Abençoa, ó Deus, minha mãe! Abençoa também todas as mães! 👑 Amém 👑
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Oração para esposa</div>
+        <div class="prayer-text">
+👩Oração para esposa👩 Abençoe-me com paciência, para que eu seja um marido tolerante. Abençoe-me para que eu possa ver apenas aquilo que realmente importa e desapegar-me de todos os hábitos e atos que sejam motivo de discórdia. Abençoe nossas finanças hoje, e possa usar recursos com sabedoria, e de nunca esquecer do próximo. Abençoe-nos para que a verdade seja a base sólida da nossa confiança mútua. Abençoe-nos para que consigamos ver nossas diferenças e respeitá-las. Abençoe-nos para que enxerguemos um no outro a bondade da Sua presença. Abençoe-nos com bons pensamentos que se traduzam em gestos amorosos. Abençoe-nos para que saibamos quando falar e quando ouvir. Abençoe-nos para que escutemos com nossos corações, não com mágoas. Abençoe nosso casamento para que se torne terreno fértil para Sua presença e o Seu amor eterno. Querido Deus, eu O convido a ocupar o centro do nosso matrimônio, para que ele se transforme em tudo que o Senhor o criou para ser. Pela Sua presença em nós dou graças. Deus abençõe todos casais do mundo. Amém!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Oração para marido</div>
+        <div class="prayer-text">
+👨Oração para marido.👨 Deus Pai de misericórdia, que criando o ser humano, o criaste homem e mulher e ordenastes que ambos se considerassem parte um do outro, socorrendo-se nas necessidades e completando-se nos seus limites. Fazei que o meu marido seja sempre fiel aos seus deveres. Que ele seja sempre, com vossa graça correto nas decisões, sóbrio nos conselhos, prudente nas decisões, feliz nos empreendimentos, humilde na prosperidade, cumpridor dos seus deveres, generoso em socorrer os outros. Afastai dele todo o que possa mover do caminho da justiça e concedei-lhe os auxílios necessários para que ele não somente alcance a perfeição, mas seja também força e estímulo para a minha caminhada a Ti. E assim, juntos alcancemos a felicidade do céu. Amém!
+        </div>
+    </div>
+
+    <div class="topo-link"><a href="#topo">⬆️ Voltar ao topo</a></div>
+
+    <hr class="divider">
+
+    <!-- ============================================ -->
+    <!-- ORAÇÕES DE CURA -->
+    <!-- ============================================ -->
+    <h2 class="section-title" id="cura">🩺 ORAÇÕES DE CURA</h2>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Cura e liberta</div>
+        <div class="prayer-text">
+Vinde, Espírito Santo, penetrai as profundezas da minha alma com o Vosso amor e o Vosso poder. Arrancai as raízes mais profundas e ocultas da dor e do pecado que estão enterradas em mim. Ó bendito Espírito Santo, queimai com o Vosso fogo abrasador toda treva instalada dentro de mim, que me consome e impede de ser feliz. Destruí em mim todas as consequências dos meus pecados dos meus ancestrais, que se manifestam em minhas atitudes, decisões, temperamento, palavras, vícios. Vinde, Santo Espírito! Vinde, em nome de Jesus! Lavai-me no Sangue precioso de Jesus, purificai todo o meu ser, quebrai toda a dureza do meu coração, destrua todas barreiras de ressentimento, mágoa, rancor, egoísmo, maldade, orgulho, soberba, intolerância e incredulidade que existem em mim. E no poder de Jesus Cristo ressuscitado, libertai-me, Senhor! Curai-me, Senhor! Tende piedade de mim, Senhor! Vinde, Santo Espírito! Fazei-me ressuscitar agora para uma vida nova, plena do Vosso amor, alegria, paz e plenitude. Estais fazendo isto em mim agora e assumo pela fé a minha libertação, cura e salvação em Jesus, meu Salvador. Glórias a Vós, meu Deus! Bendito sejais para sempre! Louvado sejais, ó meu Deus! Em nome de Jesus, Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> CURA PARA PESSOAS</div>
+        <div class="prayer-text">
+🙏 Cura para pessoas. Senhor Criador de todas as coisas, venho à Tua soberana presença agora, para suplicar ajuda aos que estão sofrendo por doenças do corpo ou da mente. Sabemos que as enfermidades nos favorecem momentos de reflexão, e de uma aproximação maior de Ti, pelos caminhos da dor e do silêncio. Mas apelamos Tua misericórdia e pedimos: Estende Tua sagrada e poderosa mão sobre os que se encontram doentes, sofrendo limitações, dores e incertezas. Faz a fé e a confiança brotarem fortes em seus corações. Alivia suas dores e dá-lhes calma e paz. Dá-lhes alívio, consolação, acende a luz da esperança em seus corações. Para que amparados pela fé e a esperança, possam desenvolver o amor universal, porque esse é o caminho da felicidade, é o caminho que nos leva a Ti. Que a Tua paz esteja com todos nós. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> ENFERMIDADE</div>
+        <div class="prayer-text">
+🙏 Enfermidades Tu és o médico divino. Tu dás a vida e a vida em plenitude àqueles que Te buscam. Por isso hoje Senhor, de um modo especial, quero pedir cura de todas doenças, principalmente daquela que me aflige agora. Sei que não queres o mal, não queres a doença que é a ausência da saúde, porque Tu és pura bondade, o Sumo Bem. Opera, em mim, uma cura espiritual, se for da Tua vontade, também uma cura física. Que seja operada diretamente pela ação poderosa de Teu Espírito Santo, ou através do médico e dos remédios! Aumenta minha fé no Teu Poder, Senhor, e no infinito Amor que tens por mim. Aumenta minha fé, Senhor, que se encontra tão enfraquecida. Eu acredito no Teu poder curador, meu Deus, e já agradeço humildemente por toda obra que estás realizando em meu coração e em meu corpo agora. Além de mim Senhor, quero também apresentar, todos os doentes que pediram orações. Tu conheces a cada um deles, sabes as provações que estão passando! Tem misericórdia, Senhor, vem em socorro também destas pessoas que padecem enfermidades. Senhor, eu Te bendigo, porque clamei a Ti e Tu me ouviste. Minha alma, por Tuas mãos benditas, foi tirada da escuridão. Em seu Santo Nome, Amém!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Cura de Ansiedades</div>
+        <div class="prayer-text">
+Cura de Ansiedades Vem, Senhor, com Seu Espírito, atende a minha oração, as minhas súplicas, preste atenção naquilo que estou dizendo, nos sentimentos que passam dentro de mim e salva-me, meu Deus. Liberta-me, Senhor, de tudo que pesa sobre mim, Senhor, e peço a libertação de toda opressão, em minha vida. Entrego a Ti os meus medos, aquela pessoa que me oprime; peço agora a cura, a liberdade que Deus me deu. Nós Lhe pedimos, Jesus, retira todo fardo que pesa sobre nós. Que a Sua graça se derrame sobre nossas vidas e que Sua graça aja com poder, libertando-nos de todos os efeitos do mal. Senhor, eu Lhe suplico de todo o coração, atenda a minha prece, meu coração pertence ao Senhor. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Cura de Vícios</div>
+        <div class="prayer-text">
+Cura de Vícios A Ti me achego ó Deus suplicando a tau ajuda! Estou no fundo do poço e vejo uma luz que é a Tua presença. Por isso recorro a Ti. Minha vida foi destruída pelo mau do vício. O que no começo era prazer, agora tornou se tristeza, dor e o que é pior a mais cruel dependência. Encontro-me num vale de lágrimas. Quero me libertar do mal que tem desandado minha vida, mas não estou conseguindo. Só Tu ó Deus, podes me libertar e me transformar em nova criatura! Renova minha alma e todo o meu ser. Em Ti confio. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Cura das Dores</div>
+        <div class="prayer-text">
+Cura das Dores Senhor, peço que me ajude a encontrar meios de aliviar essa dor que me faz sofrer tanto. Faça com que os médicos sejam capazes de diagnosticar a origem do meu sofrimento e encontrar meios de curar-me. Que meu corpo reaja bem aos exames e remédios. Peço, com a força da minha fé, que me ajude a superar as dificuldades que surgem a todo momento. Que meu sofrimento não degenere em amargura nem me abata, pelo contrário, me fortaleça e me ajude a desenvolver a compreensão de seus mistérios inalcançáveis. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Cura de Doenças</div>
+        <div class="prayer-text">
+Cura de Doenças Senhor Jesus, suplicamos no Teu Nome, que está acima de todo Nome, que toda doença deixe de existir. Senhor, libertai-nos dos efeitos propagação desses caminhos de doenças, inseridos em minha família. Pai, perdoai todos em minha família, que tiveram mania de doença como forma de evitar a vida e pelas maneiras como tentaram satisfazer necessidades pessoais de modos doentios. Senhor, que um padrão de escolher a vida flua como rio através de minha linha de sangue. Eu Te louvo e Te agradeço, Senhor, pelas graças que Tu estás me concedendo. Amém!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Cura dos medos</div>
+        <div class="prayer-text">
+Cura dos medos Deus Todo-Poderoso, confio que Tu me guiarás por entre os desafios e as batalhas da minha vida. Ajuda-me a nunca me deixar dominar pelo medo diante das circunstâncias que parecem impossíveis. Assim como ajudaste no passado, sei que continuarás a me ajudar. Eu Te louvo pelas grandes coisas que farás e Te agradeço porque está sempre comigo. Em nome de Jesus Cristo. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Cura de Amigos</div>
+        <div class="prayer-text">
+Cura de Amigos Senhor Deus, Peço a cura de um amigo, olhai por sua cura, por sua doença, pelas suas chagas físicas. Senhor, retira o que estiver de mau na vida dessa pessoa, cura, Senhor, por Suas chagas, seja feita a vossa vontade. Ofereço por ele, milésimos de segundos, dos seus tempos, das dores, dos medos, dos seus sonhos para a sua cura. Te peço a cura da doença dele. Que todas as vezes que ele acordar, seja um guerreiro, forte e determinado. Amém!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Cura de Problemas</div>
+        <div class="prayer-text">
+Cura de Problemas Meu Jesus, venho hoje pedir, neste Momento de Fé, no Colo de Jesus, a cura das minhas lembranças, tudo aquilo que vivi e ficou guardado no meu subconsciente que tem afetado a saúde física e mental. Tu me conheces e sabes a causa cada problema que trago dentro de mim. Vem, Jesus, e cura estas lembranças, os momentos em que me senti rejeitado, desanimado, ignorado até por aqueles que eu mais amava. Dos momentos de perigo que vivi e que me tornaram uma pessoa medrosa e insegura, cura-me, Senhor. Por isso Te peço: Lava-me no Teu Sangue, dá-me a Tua cura e enche-me com a Tua paz. Desde já, eu Te louvo e agradeço, pois creio que estás agindo em mim agora e que serei, em Ti, nova criatura. No poder do Teu Nome, Jesus! Amém!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Cura II</div>
+        <div class="prayer-text">
+Oração de cura Cura-me, Senhor Jesus! Jesus, coloca Tuas Mãos benditas, chagadas e abertas sobre mim, neste momento. Sinto-me completamente sem forças para prosseguir carregando as minhas cruzes. Preciso que a força e o poder de Tuas Mãos que suportaram a mais profunda dor ao serem pregadas na Cruz, reergam-me e curem-me agora. Jesus, não peço somente por mim, mas também por todos aqueles que mais amo. Nós precisamos de cura através do toque consolador de Tuas mãos ensanguentadas e infinitamente poderosas. Eu reconheço, apesar de toda a minha limitação e da infinidade dos meus pecados, que és Deus, Onipotente e Misericordioso, para agir e realizar o impossível. Com fé e total confiança, posso dizer: ❝ Mãos ensanguentadas de Jesus, Mãos feridas lá na Cruz! Vêm tocar em mim. Vem, Senhor Jesus!❞
+        </div>
+    </div>
+
+    <div class="topo-link"><a href="#topo">⬆️ Voltar ao topo</a></div>
+
+    <hr class="divider">
+
+    <!-- ============================================ -->
+    <!-- ORAÇÕES DIÁRIAS -->
+    <!-- ============================================ -->
+    <h2 class="section-title" id="diarias">📅 ORAÇÕES DIÁRIAS</h2>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Segunda-feira</div>
+        <div class="prayer-text">
+Deus, dê-me toda a força e poder, dá-me nesta segunda-feira segurança do teu amor e a certeza de que estás comigo. Peço-te ajuda e proteção nesta segunda, porque preciso de tua assistência e de tua misericórdia. Que eu possa Senhor, perceber toda a tua grandeza e a tua presença em mim. Não me abandones. Senhor Jesus fica comigo para que eu não me desespere, nem Te esqueça durante esta semana. Ajuda-me a seguir-te sem vacilar e sem olhar para trás. Entrego-te nesta segunda toda a minha vida e a vida de toda a minha família. Te agradeço, meu Deus e meu Pai, Louvado seja!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Terça-feira</div>
+        <div class="prayer-text">
+Senhor, meu primeiro pensamento nesta terça leva-me diretamente para Ti, que velaste meu sono e meu despertar. Tu moras nas alturas e habitas bem no íntimo de minha vida. E toda essa terça-feira Tua. Consagro-Te agora a jornada que começa. Que meu trabalho seja fecundo, com o orvalho do teu amor e a força da tua benção. Que eu possa responder claramente a todos a respeito da esperança que existe em mim. Que todos aqueles que eu encontrar possam receber uma palavra amiga minha, um gesto acolhedor de minhas mãos e uma oração sincera do meu coração. Que hoje à noite possa estar Contigo, como alguém que reencontra um amigo, para poder dar graças pelo meu dia. Obrigada por mais este dia, Senhor!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Quarta-feira</div>
+        <div class="prayer-text">
+Senhor, nesta quarta-feira, venho pedir-Te saúde, força, paz e sabedoria. Quero olhar hoje o mundo com olhos cheios de amor, ser paciente, compreensivo, manso e prudente; ver, além das aparências, teus filhos como Tu mesmo os vês, e ver o bem em cada um. Fecha os meus ouvidos a toda a calúnia. Guarda a minha língua de toda a maldade. Que só bênçãos encha o meu espírito. Que eu seja tão bondoso e alegre, que todos quantos se aproximarem de mim, sintam a tua presença. Senhor, reveste-me da tua beleza, e que, no caminhar deste dia, eu espalhe a sua paz. Amem.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Quinta-feira</div>
+        <div class="prayer-text">
+Senhor, nesta quinta dá-me a esperança para vencer minhas ilusões. Plantai em meu coração a semente do amor. E ajuda-me a fazer feliz o maior número de pessoas possível, para ampliar seus dias risonhos e resumir asa noites tristonhas. Transforma meus rivais em companheiros, meus companheiros em amigos e meus amigos em entes queridos. Dá-me o sabor de saber perdoar e afastai de mim o desejo de vingança. Pai, ilmuninai meus olhos para que eu veja os defeitos de minha alma e vendai-os para que eu não comente as atitudes e defeitos alheios. Senhor, levai de mim a tristeza e não a entregueis a mais ninguem. Enchei meu coração com a divina fé, para sempre louvar o vosso nome e arrancai de mim o orgulho e a presunção. Deus, fazei de mim um homem realmente justo. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Sexta-feira</div>
+        <div class="prayer-text">
+Senhor, venho a Ti nesta sexta entregar em tuas mãos todos os projetos que tenho para hoje, do amanhecer até que se ponha o sol. Louvado seja o Senhor em minha vida! Livra-me, Senhor, de toda intenção ruim contra mim nesta sexta, dá-me forças para trabalhar com alegria. Que eu possa, hoje e sempre, ser usado como instrumento para levar tua paz aos que convivem comigo. Senhor, quero receber no meu coração todas as bençãos reservadas para mim. Ajuda-me crescer um pouco mais a cada dia. Rendo-te graças, Senhor, porque Tu és bom; porque a Tua bondade dura para sempre. Em nome de Jesus, Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Sábado</div>
+        <div class="prayer-text">
+Bom Dia Amado Deus, obrigada por me conceder a graça de abrir meus olhos nesse sábado. Obrigada por ter velado meu sono e preparado o meu amanhecer. Toma-me em Teus braços e guia-me pelas veredas da vida, prepara-me um final de semana abençoado no seio da minha familia, regado a Paz, Harmonia, Serenidade e Amor. Dá-me sabedoria e discernimento para administrar qualquer situação que possa ameaçar a tranquilidade do dia, e que sejam prósperas e frutiferas as próximas horas. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Domingo</div>
+        <div class="prayer-text">
+Hoje inicia-se mais uma semana, tenho o prazer de entrega-la nas tuas mãos, pois sei que so o Senhor sabe de todas as coisas. Que essa nova semana me de a chance de recomeçar, que com ela eu renove minhas forças, minha fé, meu otimismo e veja com bons olhos as oportunidades que ela tem para me oferecer. Guia-me Senhor,ilumina meus passos, abençoa minhas escolhas e livra-me de todo o mal, Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Qualquer Dia</div>
+        <div class="prayer-text">
+Que neste dia, DEUS me conceda um novo ânimo. Onde quer que fores, DEUS me conduza; Onde quer que andares, DEUS me dirija; Onde quer que necessites ir, DEUS me acompanhe; Quando abrires a boca para falar, DEUS me ilumine; Quando a dúvida chegar à mente, DEUS me dê esperança; Quando a dor chegar ao coração, DEUS me conforte; Quando os pés vacilarem, DEUS me dê firmeza; Quando o “desconhecido” te surpreender, DEUS me tranquilize; Quando os horizontes escurecerem, DEUS me ilumine; Quando as tentações surgirem, DEUS me dê autodomínio; Quando as mágoas acontecerem, DEUS me dê espírito de abnegação; Quando vierem as incompreensões, DEUS me dê a capacidade do perdão; Que em tuas esperanças, DEUS me atenda; Que em tuas necessidades, DEUS me supra; Que tudo que quiseres, DEUS me dê o melhor; Que nas horas de ansiedade, DEUS te acalme; Que em todos os planos, DEUS te dê sucesso; Que em todos os dias da vida, DEUS continue contigo; Que a cada amanhecer, DEUS te abençôe e te guarde; Que assim seja…
+        </div>
+    </div>
+
+    <div class="topo-link"><a href="#topo">⬆️ Voltar ao topo</a></div>
+
+    <hr class="divider">
+
+    <!-- ============================================ -->
+    <!-- ORAÇÕES DE SENTIMENTOS -->
+    <!-- ============================================ -->
+    <h2 class="section-title" id="sentimentos">❤️ ORAÇÕES DE SENTIMENTOS</h2>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Ansiedades</div>
+        <div class="prayer-text">
+Deus, sei que tudo que acontece em minha vida contribui para o meu bem. Então peço ao Senhor para me ajudar a não ficar triste e amargurado quando os dias difíceis vierem. Eu não quero ser como aquele povo que murmurou no deserto por 40 anos e não conseguiu enxergar que a Sua glória os acompanhava durante todo aquele tempo. Quero encarar o tempo da espera e as circunstâncias como pontes que me levarão para mais perto de Ti e não obstáculos que irão me derrubar. Me ajude a fazer Sua vontade e viver as promessas que tens para mim. Em nome de Jesus eu oro. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Incerteza/Receio</div>
+        <div class="prayer-text">
+Pai, o Senhor é bom, o Senhor é fiel. Sabemos que esperar em Ti é sinônimo de fé, segundo a Tua vontade que é sempre boa, perfeita e agradável. Deus, muito obrigado por Tua justiça, essa verdadeiramente não falha. Confiamos em Ti, depositamos a nossa vida em Tuas mãos. Pedimos por aqueles que se encontram enfermos, abatidos, desanimados, frustrados, internados, hospitalizados… Pai, tem misericórdia de cada um que sofre, cada família que atravessa dificuldades. Pai, cumpre em nosso viver os Teus planos; sabemos que Tuas idéias sempre dão certo; sabemos que o Senhor tem sempre o melhor caminho para nos direcionar. Coloca todas as coisas no lugar; assume, Senhor, a direção das nossas vidas; transforma-nos em seres mais parecidos Contigo, o Criador de todas as coisas. Em nome de Jesus, Amém!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Bons pensamentos</div>
+        <div class="prayer-text">
+Senhor meu Deus e Pai todo poderoso, entro em tua presença neste momento para colocar a minha vida e os meus pensamentos em tuas mãos. Senhor sei que olha por mim e conhece todo o meu agir e o meu pensar e por isso creio que os meus pensamentos tem que ser bons, pensamentos que agradam e te louvam em todo o momento. Mando embora todo pensamento de fracasso, derrota, baixa auto estima e repreendo todo e qualquer ataque do inimigo sobre meus pensamentos em nome de Jesus. Eu determino libertação sobre minha vida, libertação dos maus pensamentos e declaro que a minha mente é do Senhor e por isso preencho de bons pensamentos e de louvores a Deus. Amém e graças a Deus.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Preocupações</div>
+        <div class="prayer-text">
+Senhor meu Deus e maravilhoso Pai, entro em Tua santa presença em oração para colocar minha vida em tuas mãos. Senhor ando preocupado demais e isso esta tirando a minha paz, meu coração está cheio de preocupações com o dia de amanhã, e isso impede que eu viva em paz, por isso venho diante de ti pedir que ajude a enfrentar essa situação, em tua palavra esta escrito: ❝ devemos colocar nossas ansiedades e preocupações diante do Senhor ❞ e que nossas orações tem que estar em ti, por isso eu creio que o Senhor me fortalece nas horas de preocupação e me trás a paz que tanto necessito. Não quero me preocupar com qualquer coisa, pois sei que tudo tem o seu tempo certo e que em todas coisas o Senhor me ajuda, pois o Senhor é bom em todo o tempo e não nos desampará em nenhum momento. Por isso na autoridade do nome do Senhor, levanto a minha voz contra todo o mal que assola minha vida e digo: ✹ Mal, excesso de preocupação e ansiedade que invadem a minha mente, saiam agora! ✹ Eu não aceito nenhum mal, preocupação excessiva com o amanhã, com o que vai acontecer, me tirando a paz de viver! ✹ Saia agora da minha vida, da minha mente e do meu coração! ✹ Eu determino que haja paz, esperança, tranquilidade, sossego e calma em minha vida. Amém e graças a Deus.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Desanimado/Abatido</div>
+        <div class="prayer-text">
+Senhor meu Deus, estou em tua presença neste momento, pedir que o Senhor venha me ajudar a ter mais ânimo em minha vida, sei que em tua palavra ó Senhor, diz para não desanimar e ser forte, por isso quero ter bom ânimo, sei que o Senhor vai me ajudar e revigora minhas forças agora. Que o Senhor seja minha força, venha inundar meu ser neste momento tirando todo desânimo, tristeza e derrotismo, e tudo que atrapalha e tenta me levar para a tristeza saiam da minha vida agora. Saiam em nome de Jesus! Eu determino que na minha vida exista alegrias, haja ânimo em todas as situações. Em nome do Senhor Jesus Cristo. Amém e graças a Deus.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Fraqueza/Limitações</div>
+        <div class="prayer-text">
+Senhor meus Deus, aprendi que só Tu és grande. A vida me ensinou, vós me iluminastes para aprender: sem vós não vou longe, aliás, nem começo a caminhar. Reconheço minha fraqueza, minhas limitações, minha pobreza, e mais ainda meu pecado. Perdoai-me, Senhor, por misericórdia, olhai pra mim, preciso de Vossa ajuda para afastar-me do mal, para purificar meu coração, para ter forças para o bem. Vós me amais tanto, apesar de eu não o merecer. Fazei que eu não seja ingrato a tanto amor, que vos coloque em primeiro lugar na minha vida. E dai-me a perseverança, para que não desanime, apesar de minhas quedas. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Incertezas</div>
+        <div class="prayer-text">
+Senhor meu Deus e maravilhoso Pai, estou com o meu coração apertado, estou em dúvida em algumas situações. Por isso eu te peço, Senhor, venha me ajudar a tomar a melhor decisão. O Senhor não é um Deus de dúvidas, por isso eu não posso deixar que a dúvida tome conta do coração e nem deixar a minha vida amarrada em medos e inseguranças. E na autoridade do nome de Jesus eu me levanto contra toda dúvida, todo receio e medos que estão em minha vida e em meu coração! Tudo que atrapalha e impede decisões e tudo que gera dúvidas dentro de mim! Eu repreendo toda dúvida em nome de Jesus! Eu determino que exista a certeza, em todas as minhas decisões e atitudes. Que meus passos, sejam sobre a luz da Sua palavra, que eu ande sem medos ou receios, que a dúvida não faça parte da minha vida! Amém e graças a Deus.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Desânimo/Desespero</div>
+        <div class="prayer-text">
+Meu Senhor e meu Deus, coloco-me todo sob Tua proteção. ● Diante das incertezas, Tu és a certeza da vida plena. ● Diante da ingratidão, Tu és a plenitude do amor. ● Diante do jugo pesado, Tu apresentas a leveza da misericórdia. ● Diante da arrogância, Tu mostras a modéstia. ● Diante da insônia, Tu revelas o sono dos justos. ● Diante do pecado, Tu espalhas o perdão. ● Diante da Maledicência, Tu desejas a piedade. ● Diante da solidão, Tu apontas o amigo. ● Diante da luxúria, Tu enalteces a humildade. ● Diante da indiferença, Tu ensinas a caridade. ● Diante do desespero, Tu elevas a esperança. ● Diante do desânimo, Tu expões a perseverança. Senhor, na certeza da vida plena, acredito na plenitude do Teu amor e na leveza da Tua misericórdia. Ensina-me Senhor a ser modesto no pensar e no agir, para que eu durma o sono dos justos. Concede-me Senhor o Teu perdão e a Tua piedade. Seja Senhor para mim neste dia o amigo humilde e caridoso que irá encher-me de esperança, para que sempre persevere na fé. Amém!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Momentos de nervosismo</div>
+        <div class="prayer-text">
+Senhor Jesus, sinto tanta agitação em meu interior Angústias, medos, desespero, e muita coisa passa na minha mente. Peço que acalme meu espírito, me conforte em Teu refúgio. Ajuda-me a relaxar e descansar, pois preciso meu Senhor. As agitações me consomem, e eu não estou sabendo controlar. Senhor, coloco em Tuas mãos toda a minha dor, sofrimento, pensamentos e sentimentos ruins. Senhor eu Te entrego tudo que me causa ou causará agitação. Te peço Senhor, tire toda agitação que atrapalha meu dia a dia e minhas decisões, acalma Senhor meu coração. Concedei-me senhor a serenidade necessária de aceitar as coisas que não posso modificar. E coragem para modificar as que eu posso e sabedoria para distinguir uma da outra…
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Contra o medo</div>
+        <div class="prayer-text">
+Senhor Jesus, no poder do Teu nome ponho um fim agora a todas formas de medo em minha árvore genealógica. Tomo autoridade sobre todo medo de rejeição, fracasso. Senhor Jesus, na autoridade do Teu Nome, digo não a todo medo de água, altura, buracos, sucesso, fracasso, homens, mulheres, multidões, ficar sozinho, de Deus, da morte, de espaços fechados, falar em público, falar em voz alta, falar a verdade, todo medo do sofrimento e da alegria,(diga o seu medo) Senhor, que minha família conheça, em todos que não há medo no amor. Que Vosso amor encha de tal modo a história de minha família, que toda lembrança do medo deixe de existir. Eu Vos louvo e agradeço na certeza de ser atendido. Amém!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Contra inveja</div>
+        <div class="prayer-text">
+O Olho da Luz me envolve. Seu brilho me protege. Quebre mau-olhado! Desfaça-se toda a intriga. Estou com a Benção do Senhor. Estou dentro do Manto do Senhor, assim nada me destruirá. Amém!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Contra tristezas.</div>
+        <div class="prayer-text">
+Liberta-me, Senhor, de toda tristeza congênita. Cura Senhor, todo resultado de palavras pesadas, maldições, traições, mortes, que caíram sobre mim. Assumindo toda a força dessa palavra Senhor, posso proclamar: Sou um bem-aventurado, não por merecimento, mas por graça, o Senhor me fez um bem-aventurado! Batiza no teu Espírito Santo e traz-me a alegria no meu coração, pois sei que somente em Ti a vida é plena. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Contra o desânimo</div>
+        <div class="prayer-text">
+Senhor, abro o meu coração e peço que a Tua presença me levante neste momento tão difícil que estou vivendo. Desânimo, dúvida e fraqueza tomam conta do meu coração. Tire de mim todo o sentimento de fracasso e de solidão. Erga a minha vida com todo o Teu poder e amor. Não me deixe ser vencido pelo desânimo. Só o Senhor pode me ajudar e libertar de todos inimigos e fantasmas da alma. Senhor, recebo a Tua força em meu coração e o Teu divino Espírito Santo para limpar e preencher toda a minha vida. Não ficarei prostrado, mas me levantarei para vencer e cumprir todo o Teu propósito. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Orações gratidão</div>
+        <div class="prayer-text">
+Obrigado, Senhor, por mais um dia que me dás, pelo alimento à minha mesa, pela família da qual sou parte, por amar aos meus irmãos, por buscar sempre ser justo, por saber perdoar as ofensas, pela consciência das minhas faltas. Obrigado, Senhor, por crer em Ti, por amar a tua Lei, pelo bem que pude praticar, pelo mal que eu soube evitar, e porque me deste a Fé, me alimentas a Esperança, E me fazes filho da tua caridade, Por tudo enfim… ＯＢＲＩＧＡＤＯ ＳＥＮＨＯＲ!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> de felicidades</div>
+        <div class="prayer-text">
+Senhor, permita-me ser feliz, mesmo diante de minha própria ignorância, e superando as condições adversas. enquanto busco sair de meus equívocos, sentir alegria e viver com determinação, confiante na Sua misericórdia. Consinta-me, enquanto ajudo meu próximo, tão sofredor quanto eu, perceber a vitalidade nas coisas e na vida. Incentiva a alcançar a felicidade possível, disseminando-a por onde passar, a serviço do Seu infinito amor. Permita continuar dono de meu destino, com a capacidade de administrar minha liberdade a serviço da construção de um mundo melhor. Amém!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Arrependimentos</div>
+        <div class="prayer-text">
+Pai celestial, arrependo-me de meus pecados, do modo que vivi, de tudo o que faço de errado. Confesso-Te todos os meus pecados, conhecidos e desconhecidos, tudo o que tenho sido, feito e falado peço-Te perdão por todos eles. Quero agora também perdoar todas pessoas que me ofenderam e pecaram contra mim, (Dizer os nomes). Senhor Jesus, lava-me no Teu Sangue e tem piedade de mim! De acordo com a Tua palavra, com minha boca confesso que Tu é os Senhor, com todo o meu coração creio que Deus Pai. Te ressuscitou dentre os mortos, que Tu estás vivo para nunca mais morrer. Perante ti, eu recebo-Te como meu único Salvador e Senhor. De agora em diante quero viver para Te amar e para Te servir por todos dias de minha vida. No poder do Teu Nome. Jesus Amém.
+        </div>
+    </div>
+
+    <div class="topo-link"><a href="#topo">⬆️ Voltar ao topo</a></div>
+
+    <hr class="divider">
+
+    <!-- ============================================ -->
+    <!-- ORAÇÕES DE BENÇÃOS -->
+    <!-- ============================================ -->
+    <h2 class="section-title" id="bencaos">✨ ORAÇÕES DE BENÇÃOS</h2>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Benção do lar</div>
+        <div class="prayer-text">
+Deus, Senhor nosso, Vos adoramos porque sois fonte da vida, a fonte do amor e da felicidade. Purificai nosso amor de toda inveja, ciúme e raivas. Vos agradecemos por todos dons naturais concedidos a cada um em particular, pela família que santifica com sacramentos, que são vossa presença amorosa. Dai-nos ó Pai celeste, a graça de irradiar em nossa casa mais amor e compreensão. Fazei que imitemos na família de Nazaré para sentimos a alegria do amor e sermos luz neste mundo confuso. Isto Vos pedimos com a intercessão da Sagrada Família, em união com o Divino Espírito Santo. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Benção da família</div>
+        <div class="prayer-text">
+Senhor Deus, Pai de todos nós, derramai, pelo Vosso Espírito de amor, todas as bênçãos necessárias para a nossa família aqui reunida, para que cada um de nós cumpra a sua missão, seguindo o Vosso plano de amor para o bem de todos. Senhor, que nossa família assim abençoada seja uma verdadeira imagem Vossa, na unidade, na ação, e na vida em comum. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Benção do trabalho</div>
+        <div class="prayer-text">
+Senhor! Suplicamos a tua bênção e proteção sobre este local de trabalho. Que a graça de teu Espírito Santo habite dentro destas paredes, para que não haja conflito e desunião. Afasta deste lugar a inveja! Que teus anjos de Deus acampem ao redor deste lugar, e somente a paz e a prosperidade habitem este local. Concede aos que aqui tralham um corção justo e generoso, para que o dom da partilha aconteça e as Suas bênçãos sejam abundantes. Dá saúde aos que retiram deste lugar o sustento, para que saibam cantar louvores a Ti. Por Cristo Jesus Amém!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Benção do alimento</div>
+        <div class="prayer-text">
+Agradeço a Deus por este alimento e peço para que todos seus filhos também recebam o suprimento necessário para suas vidas. Amado Pai Celestial, agradeço por este alimento e peço a Cristo para purificá-lo com suas bençãos. Pai, permita que todos os seus filhos na Terra possam ter o alimento que precisam, assim como eu recebo este alimento agora. Amém!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Benção do casamento</div>
+        <div class="prayer-text">
+Deus Abençoe meu casamento hoje. Abençoe-nos e nos dê uma visão clara do Seu objetivo para a nossa união. Abençoe-nos, ajustando nossos passos. Abençoe nossas orações um pelo outro. Abençoe-nos, pondo-nos a salvo de todos os males. Abençoe-nos com um lar pacífico e amoroso. Abençoe-nos com corações abertos e cheio de compaixão um pelo outro. Abençoe-nos com a força que vem do nosso íntimo e nos reveste por dentro e por fora, de modo que nenhum ataque possa nos atingir. Abençoe meu marido/esposa em tudo o que ele/a fizer hoje. Abençoe-nos para que colaboremos um com o outro. Abençoe-nos para que escutemos com nossos corações não com nossas mágoas. Querido Deus, eu O convido a ocupar o centro do nosso matrimônio, para que ele se transforme em tudo aquilo que Você o criou para ser. Pelas bênçãos da Sua presença amorosa em nossa união, eu dou graças. Amém!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Benção financeira</div>
+        <div class="prayer-text">
+Pai Celestial, o mais gracioso e Amar a Deus, peço-lhe que abençoe a minha família e a mim. Eu sei que você reconhece que uma família é mais do que apenas uma mãe, pai, irmã, irmão, marido e mulher, mas todos os que crêem e confiam em você. DEUS, eu envio um pedido de oração p/ bênção financeira não só para mim, mas para todos que pesso nesta oração. Liberte a sua sabedoria divina para que eu possa ser um bom administrador de Suas bençãos, pois sei quão poderoso Tu és. Agradeço ao Senhor agora, Deus pelas bênçãos que recebi recentemente e as bênçãos por vir. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Amor Perdido</div>
+        <div class="prayer-text">
+Senhor, quantas decepções tive, quanto meu coração está machucado, vi meu castelo desabar. Acreditei na felicidade e fui decepcionada(o). Por estas razões, Senhor, estou diante de Vós, pedindo-Vos que eu volte a acreditar que uma dia possa ser feliz. Sinto um imenso medo de sofrer novamente e acredito que já não teria estrutura alguma para novas decepções. Fazei, Senhor, que eu consiga sonhar um novo sonho e que se torne real como tanto desejo. Curai as chagas de meu coração trazei-me de volta a alegria de amar, viver, recomeçar. Colocai em minha alma novamente esperança, a paz, a alegria, a fortaleza de quem sabe que o sol brilha todo dia, mas a cada manhã, de forma diferente. Diante das noites escuras, eu me lembre que quanto mais é escura a noite, melhor posso ver as estrelas. Pai, estendei Vossas mãos para esta(e) serva(o) e filha(o), que tanto Vos ama. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Benção para vitória</div>
+        <div class="prayer-text">
+Vem, Espírito Santo, e ilumina nossa mente com a luz do céu. Remova todos os obstáculos que possam existir em nós e que nos impedem de caminhar. Enche-nos de esperança. Fortalece-nos para que possamos permanecer firmes na verdade de Cristo. Ajuda-nos a usar com sabedoria as dádivas, para a glória de Deus. Amado Pai, humildemente nos submetemos a Ti e pedimos que veles por nós e nos protejas de todo mal. Aceitamos prontamente tudo aquilo que em Tua Providência, nos tens dado. Nós Te amamos e sabemos que Tu nos amas. Ajuda-nos a conhecer mais o amor à medida que somos abençoados pelo poder de Jesus Cristo. AMÉM!
+        </div>
+    </div>
+
+    <div class="topo-link"><a href="#topo">⬆️ Voltar ao topo</a></div>
+
+    <hr class="divider">
+
+    <!-- ============================================ -->
+    <!-- OCASIÕES -->
+    <!-- ============================================ -->
+    <h2 class="section-title" id="ocasioes">🎯 OCASIÕES</h2>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Provas e testes</div>
+        <div class="prayer-text">
+Espírito Santo, Deus de amor, conceda inteligência, serenidade e unção. Derramai graças e bênçãos do céu, que teu fogo inflame, que ilumine, que Tua graça me serenize e Teus dons possam potencializar tudo aquilo que estudei, e foi fruto de horas de dedicação. Senhor, mandai Teu Espírito Santo, sobre todos envolvidos nesta prova, que pode decidir futuros, abrir caminhos ou fecha-los. Vinde Espírito Santo, e derramai graças sobre seus filhos e filhas. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Aniversário de Casamento</div>
+        <div class="prayer-text">
+Meu Deus, que profunda impressão deixou em minha alma o dia do meu casamento. Naquele dia cumpri o ato mais importante de minha vida. Lembro-me das disposições que tive e dos bons conselhos que recebi. Disse-nos o sacerdote que daquela hora em diante, começava a nossa vida a dois. Juntos iríamos viver juntos, iríamos aperfeiçoando um ao outro. Agora porém que se passaram anos, como estou? Fui sempre fiel aos meus deveres? Ofusquei a serenidade de nosso lar? Senhor, perdoai as minhas falhas, dai-me força e maior constância nas resoluções tomadas, fazei renascer em mim a graça do sacramento do matrimônio, a fim de que, com renovado fervor corrija as minhas negligências e repare as faltas cometidas. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Oração para viajar</div>
+        <div class="prayer-text">
+Que tua vontade possa, ó Senhor, guiar-me em paz para que eu chegue ao meu destino em segurança. Protege-me do perigo durante minha viagem. Ilumina os que dirige o nosso caminho pelos céus, terra e mar. Que possamos achar favor diante de Ti. Bendito és Tu, Senhor, Que atendes meu coração. Amém!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Oração para testes</div>
+        <div class="prayer-text">
+Senhor, dai-nos a sabedoria que julga do alto e vê longe. Dai-nos o espírito que omite o insignificante em favor do essencial. Ensinai-nos a serenar-nos diante das lutas e dos obstáculos e a prosseguir na fé, sem agitação, o caminho traçado por ti. Dai-nos uma atividade serena que abrace a totalidade com uma visão unitária. Ajudai-nos a aceitar a crítica. Que saibamos evitar a desordem, a dispersão, que amemos todas as coisas, juntamente Contigo. Ó Deus, fonte do ser, une-nos a ti e a tudo que converge para a alegria e a eternidade. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Diante de Sofrimentos</div>
+        <div class="prayer-text">
+Deus, nosso Pai, quando o sofrimento vier nos visitar, e na aflição não quisermos aceitá-lo, dai-nos força para não cairmos no desespero. Conservai viva e inabalável nossa esperança. Na hora da dor, fazei-nos compreender. Senhor: sois vós que lavrais nosso campo e trabalhais a nossa terra, até que as sementes germinem, cresçam as searas e produzam em nós abundantes frutos. SENHOR, fique comigo!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Diante de Desemprego</div>
+        <div class="prayer-text">
+Jesus, abre-me uma porta! Senhor, atende este clamor que brota do mais íntimo do meu coração: ❛ abre-me uma porta! ❜ Só Tu sabes e conheces, Jesus, o momento de dificuldade pelo qual eu (diga seu nome) e toda a minha família estamos passando pelo desemprego. Tu sabes também, Senhor, com quanta esperança eu aproximo de Ti para pedir que vás à minha frente, abrindo porta e preparando um emprego, para que através de um trabalho digno, dar à minha família o pão de cada dia. Confiando inteiramente na Tua Palavra. E a Deus nenhuma coisa é impossível. Deus Misericordioso abre-me uma porta e concede-me esta graça!
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Para Trabalho</div>
+        <div class="prayer-text">
+Jesus, divino trabalhador e amigo dos trabalhadores, volvei Vosso olhar benigno para o mundo do trabalho. Nós Vos apresentamos as necessidades dos que trabalham intelectual, moral ou materialmente. Bem sabe como são duros os nossos dias cheios de canseira, e deslealdade. Dai-nos a sabedoria, a virtude e o amor que Vos alentou nas Vossas laboriosas jornadas, inspirai-nos pensamentos de fé, de paz e moderação, de economia, a fim de procurarmos com o pão de cada dia, os bens espirituais, para transformarmos a face da terra completando assim a obra da criação que Vós iniciastes. E que Vossa luz nos ilumine a nós na busca de melhores leis sociais e ilumine os legisladores a estabelecer uma sociedade de justiça e amor. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Dificuldades do dia a dia</div>
+        <div class="prayer-text">
+Acompanhai-nos, Senhor, em cada dia. Firmai nossos passos no caminho do bem. Derramai a paz e o amor nos nossos corações para que possamos construir um mundo novo, onde reine a paz a justiça, fraternidade, onde se luta para acabar com a miséria, para aliviar os sofrimentos alheios. Assim, a vossa presença marcará cada vez mais o nosso mundo. Fortalecei-nos, Senhor, na luta e guiai-nos hoje e sempre. Amém.
+        </div>
+    </div>
+
+    <div class="prayer-block">
+        <div class="prayer-title"><span class="emoji-badge">🙏</span> Momentos de felicidades</div>
+        <div class="prayer-text">
+Permita-me ser feliz, mesmo diante de minha própria ignorância e superando condições adversas que passei. Deixa-me, enquanto busco sair de meus equívocos, sentir alegria e viver com determinação, confiante na Sua misericórdia. Consinta-me, enquanto ajudo meu próximo, tão sofredor quanto eu, perceber a vitalidade nas coisas e a grandeza da Vida. Encoraja-me para que, mesmo na dor ou no sofrimento, na luta diária pela minha subsistência, eu viva com coragem e consciência de minhas limitações buscando superá-las. Deixa-me levar aos outros a felicidade de que sou portador e a certeza de que minha força vem de nossa íntima e perene ligação. Conceda-me a ventura de, tanto quanto enxugar a lágrima, também entender sentimento fez surgir, transformando-a no amor que traz a felicidade. Incentiva-me a alcançar a felicidade possível, disseminando-a por onde passar, a serviço do Seu infinito amor. Permita-me continuar dono de meu destino, com a capacidade de administrar minha liberdade, a serviço da construção de um mundo melhor. Amém!
+        </div>
+    </div>
+
+    <div class="topo-link"><a href="#topo">⬆️ Voltar ao topo</a></div>
+
+    <!-- RODAPÉ -->
+    <div class="footer-note">
+        ✝️ ORAÇÕES TODOS MOMENTOS — Que a paz de Cristo esteja com você.
+    </div>
+
+</div>
+</body>
+</html>****
